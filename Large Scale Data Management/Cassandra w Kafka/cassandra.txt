@@ -1,0 +1,27 @@
+# personame was used as a partition key, listenattime was used as clustering key
+CREATE TABLE spotify.fanis_records_2 (
+    personname TEXT,
+    listenattime TIMESTAMP,
+    name TEXT,
+    song TEXT,
+    artists TEXT,
+    duration_ms BIGINT,
+    album_name TEXT,
+    album_release_date DATE,
+    danceability FLOAT,
+    energy FLOAT,
+    key INT,
+    loudness FLOAT,
+    mode INT,
+    speechiness FLOAT,
+    acousticness FLOAT,
+    instrumentalness FLOAT,
+    liveness FLOAT,
+    valence FLOAT,
+    tempo FLOAT,
+    PRIMARY KEY (personname, listenattime)
+);
+
+
+select avg(danceability) from spotify.fanis_records_2 where personname='Mr. Fanis Nitsos' and listenattime >= '2024-03-28 21:20:00' and listenattime <= '2024-03-28 21:25:00';
+select name from spotify.fanis_records_2 where personname='Mr. Fanis Nitsos' and listenattime >= '2024-03-28 21:20:00' and listenattime <= '2024-03-28 21:25:00';

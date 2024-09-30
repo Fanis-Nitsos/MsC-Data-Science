@@ -1,0 +1,7073 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for aueb.fnitsos:map.reduce:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 35, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------------< aueb.fnitsos:map.reduce >-----------------------
+[INFO] Building map.reduce 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ map.reduce ---
+[INFO] Deleting D:\Other\map.reduce\map.reduce\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ map.reduce ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ map.reduce ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 5 source files to D:\Other\map.reduce\map.reduce\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ map.reduce ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Other\map.reduce\map.reduce\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ map.reduce ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to D:\Other\map.reduce\map.reduce\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ map.reduce ---
+[INFO] Surefire report directory: D:\Other\map.reduce\map.reduce\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running aueb.fnitsos.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ map.reduce ---
+[INFO] Building jar: D:\Other\map.reduce\map.reduce\target\map.reduce-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.2-beta-5:single (make-assembly) @ map.reduce ---
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/org.apache.hadoop.security.token.TokenRenewer already added, skipping
+[INFO] META-INF/services/org.apache.hadoop.security.token.TokenIdentifier already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] org/apache/hadoop/yarn/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factory/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factory/providers/ already added, skipping
+[INFO] org/apache/hadoop/yarn/util/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factories/ already added, skipping
+[INFO] org/apache/hadoop/yarn/server/ already added, skipping
+[INFO] org/apache/hadoop/yarn/server/api/ already added, skipping
+[INFO] org/apache/hadoop/yarn/server/api/protocolrecords/ already added, skipping
+[INFO] org/apache/hadoop/yarn/api/ already added, skipping
+[INFO] org/apache/hadoop/yarn/api/protocolrecords/ already added, skipping
+[INFO] org/apache/hadoop/yarn/api/records/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factory/providers/package-info.class already added, skipping
+[INFO] org/apache/hadoop/yarn/util/package-info.class already added, skipping
+[INFO] org/apache/hadoop/yarn/factories/package-info.class already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/slf4j/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.slf4j/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/google/ already added, skipping
+[INFO] com/google/inject/ already added, skipping
+[INFO] META-INF/DEPENDENCIES already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/google/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/test/ already added, skipping
+[INFO] com/sun/jersey/test/framework/ already added, skipping
+[INFO] com/sun/jersey/test/framework/spi/ already added, skipping
+[INFO] com/sun/jersey/test/framework/spi/container/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey.jersey-test-framework/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] com/sun/jersey/spi/ already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/com.sun.jersey.spi.container.ContainerProvider already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] com/sun/jersey/api/container/ already added, skipping
+[INFO] com/sun/jersey/server/ already added, skipping
+[INFO] com/sun/jersey/server/impl/ already added, skipping
+[INFO] com/sun/jersey/server/impl/container/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] org/glassfish/grizzly/http/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/servlet/ already added, skipping
+[INFO] javax/servlet/http/ already added, skipping
+[INFO] javax/servlet/descriptor/ already added, skipping
+[INFO] javax/servlet/annotation/ already added, skipping
+[INFO] javax/servlet/SessionTrackingMode.class already added, skipping
+[INFO] javax/servlet/AsyncListener.class already added, skipping
+[INFO] javax/servlet/ServletResponse.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeListener.class already added, skipping
+[INFO] javax/servlet/FilterRegistration.class already added, skipping
+[INFO] javax/servlet/AsyncEvent.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeEvent.class already added, skipping
+[INFO] javax/servlet/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/http/Part.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequest.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponse.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/http/NoBodyResponse.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionAttributeListener.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/http/HttpSessionContext.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/http/HttpSessionActivationListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionEvent.class already added, skipping
+[INFO] javax/servlet/http/Cookie.class already added, skipping
+[INFO] javax/servlet/http/HttpUtils.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/http/HttpSessionListener.class already added, skipping
+[INFO] javax/servlet/http/HttpServlet.class already added, skipping
+[INFO] javax/servlet/http/HttpSession.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings_es.properties already added, skipping
+[INFO] javax/servlet/http/NoBodyOutputStream.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingEvent.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingListener.class already added, skipping
+[INFO] javax/servlet/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeListener.class already added, skipping
+[INFO] javax/servlet/FilterConfig.class already added, skipping
+[INFO] javax/servlet/ServletRequestListener.class already added, skipping
+[INFO] javax/servlet/Filter.class already added, skipping
+[INFO] javax/servlet/MultipartConfigElement.class already added, skipping
+[INFO] javax/servlet/GenericServlet.class already added, skipping
+[INFO] javax/servlet/ServletContextEvent.class already added, skipping
+[INFO] javax/servlet/descriptor/JspPropertyGroupDescriptor.class already added, skipping
+[INFO] javax/servlet/descriptor/TaglibDescriptor.class already added, skipping
+[INFO] javax/servlet/descriptor/JspConfigDescriptor.class already added, skipping
+[INFO] javax/servlet/ServletInputStream.class already added, skipping
+[INFO] javax/servlet/UnavailableException.class already added, skipping
+[INFO] javax/servlet/FilterChain.class already added, skipping
+[INFO] javax/servlet/ServletRegistration$Dynamic.class already added, skipping
+[INFO] javax/servlet/SingleThreadModel.class already added, skipping
+[INFO] javax/servlet/HttpMethodConstraintElement.class already added, skipping
+[INFO] javax/servlet/HttpConstraintElement.class already added, skipping
+[INFO] javax/servlet/Registration.class already added, skipping
+[INFO] javax/servlet/DispatcherType.class already added, skipping
+[INFO] javax/servlet/ServletException.class already added, skipping
+[INFO] javax/servlet/Registration$Dynamic.class already added, skipping
+[INFO] javax/servlet/ServletContextListener.class already added, skipping
+[INFO] javax/servlet/ServletRequestEvent.class already added, skipping
+[INFO] javax/servlet/ServletOutputStream.class already added, skipping
+[INFO] javax/servlet/ServletRegistration.class already added, skipping
+[INFO] javax/servlet/ServletRequest.class already added, skipping
+[INFO] javax/servlet/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/SessionCookieConfig.class already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeEvent.class already added, skipping
+[INFO] javax/servlet/ServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/RequestDispatcher.class already added, skipping
+[INFO] javax/servlet/annotation/HttpMethodConstraint.class already added, skipping
+[INFO] javax/servlet/annotation/ServletSecurity$TransportGuarantee.class already added, skipping
+[INFO] javax/servlet/annotation/HandlesTypes.class already added, skipping
+[INFO] javax/servlet/annotation/WebListener.class already added, skipping
+[INFO] javax/servlet/annotation/ServletSecurity$EmptyRoleSemantic.class already added, skipping
+[INFO] javax/servlet/annotation/MultipartConfig.class already added, skipping
+[INFO] javax/servlet/annotation/WebInitParam.class already added, skipping
+[INFO] javax/servlet/annotation/ServletSecurity.class already added, skipping
+[INFO] javax/servlet/annotation/HttpConstraint.class already added, skipping
+[INFO] javax/servlet/annotation/WebFilter.class already added, skipping
+[INFO] javax/servlet/annotation/WebServlet.class already added, skipping
+[INFO] javax/servlet/ServletContext.class already added, skipping
+[INFO] javax/servlet/ServletConfig.class already added, skipping
+[INFO] javax/servlet/ServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/Servlet.class already added, skipping
+[INFO] javax/servlet/ServletContainerInitializer.class already added, skipping
+[INFO] javax/servlet/AsyncContext.class already added, skipping
+[INFO] javax/servlet/ServletSecurityElement.class already added, skipping
+[INFO] javax/servlet/FilterRegistration$Dynamic.class already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/javax.ws.rs.ext.MessageBodyReader already added, skipping
+[INFO] META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/xml/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/DEPENDENCIES already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/org.apache.hadoop.security.SecurityInfo already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/google/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.commons/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/servlet/ already added, skipping
+[INFO] javax/servlet/http/ already added, skipping
+[INFO] javax/servlet/Filter.class already added, skipping
+[INFO] javax/servlet/FilterChain.class already added, skipping
+[INFO] javax/servlet/FilterConfig.class already added, skipping
+[INFO] javax/servlet/GenericServlet.class already added, skipping
+[INFO] javax/servlet/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/RequestDispatcher.class already added, skipping
+[INFO] javax/servlet/Servlet.class already added, skipping
+[INFO] javax/servlet/ServletConfig.class already added, skipping
+[INFO] javax/servlet/ServletContext.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeEvent.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeListener.class already added, skipping
+[INFO] javax/servlet/ServletContextEvent.class already added, skipping
+[INFO] javax/servlet/ServletContextListener.class already added, skipping
+[INFO] javax/servlet/ServletException.class already added, skipping
+[INFO] javax/servlet/ServletInputStream.class already added, skipping
+[INFO] javax/servlet/ServletOutputStream.class already added, skipping
+[INFO] javax/servlet/ServletRequest.class already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeEvent.class already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeListener.class already added, skipping
+[INFO] javax/servlet/ServletRequestEvent.class already added, skipping
+[INFO] javax/servlet/ServletRequestListener.class already added, skipping
+[INFO] javax/servlet/ServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/ServletResponse.class already added, skipping
+[INFO] javax/servlet/ServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/SingleThreadModel.class already added, skipping
+[INFO] javax/servlet/UnavailableException.class already added, skipping
+[INFO] javax/servlet/http/Cookie.class already added, skipping
+[INFO] javax/servlet/http/HttpServlet.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequest.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponse.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/http/HttpSession.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionActivationListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionAttributeListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingEvent.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionContext.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionEvent.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionListener.class already added, skipping
+[INFO] javax/servlet/http/HttpUtils.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/http/LocalStrings_es.properties already added, skipping
+[INFO] javax/servlet/http/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/http/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/http/NoBodyOutputStream.class already added, skipping
+[INFO] javax/servlet/http/NoBodyResponse.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/mortbay/ already added, skipping
+[INFO] org/mortbay/servlet/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.mortbay.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/jasper/ already added, skipping
+[INFO] org/apache/jasper/compiler/ already added, skipping
+[INFO] org/apache/jasper/compiler/Localizer.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/servlet/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] org/apache/commons/httpclient/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] org/apache/commons/collections/ already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap.class already added, skipping
+[INFO] org/apache/commons/collections/ArrayStack.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$Values.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$1.class already added, skipping
+[INFO] org/apache/commons/collections/Buffer.class already added, skipping
+[INFO] org/apache/commons/collections/BufferUnderflowException.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$KeySet.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$EntrySet.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] org/apache/commons/beanutils/ already added, skipping
+[INFO] org/apache/commons/beanutils/BasicDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/BasicDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanAccessLanguageException.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanUtilsBean$1.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConstructorUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/ContextClassLoaderLocal.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConversionException.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConvertUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConvertUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/Converter.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConvertingWrapDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/DynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/DynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/DynaProperty.class already added, skipping
+[INFO] org/apache/commons/beanutils/JDBCDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/LazyDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/LazyDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/LazyDynaMap.class already added, skipping
+[INFO] org/apache/commons/beanutils/MappedPropertyDescriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/MethodUtils$MethodDescriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/MethodUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/MutableDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/NestedNullException.class already added, skipping
+[INFO] org/apache/commons/beanutils/PropertyUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/PropertyUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/ResultSetDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/ResultSetIterator.class already added, skipping
+[INFO] org/apache/commons/beanutils/RowSetDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/WrapDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/WrapDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ already added, skipping
+[INFO] org/apache/commons/beanutils/converters/AbstractArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BigDecimalConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BigIntegerConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BooleanArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BooleanConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ByteArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ByteConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/CharacterArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/CharacterConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ClassConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/DoubleArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/DoubleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/FileConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/FloatArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/FloatConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/IntegerArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/IntegerConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/LongArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/LongConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ShortArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ShortConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/SqlDateConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/SqlTimeConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/SqlTimestampConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/StringArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/StringConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/URLConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/ already added, skipping
+[INFO] org/apache/commons/beanutils/locale/BaseLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtils$Descriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$1.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$Descriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleConvertUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleConvertUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/ already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/BigDecimalLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/BigIntegerLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/ByteLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/DateLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/DecimalLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/DoubleLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/FloatLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/IntegerLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/LongLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/ShortLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/SqlDateLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/SqlTimeLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/SqlTimestampLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/StringLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/collections/ already added, skipping
+[INFO] org/apache/commons/collections/ArrayStack.class already added, skipping
+[INFO] org/apache/commons/collections/Buffer.class already added, skipping
+[INFO] org/apache/commons/collections/BufferUnderflowException.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$1.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$EntrySet.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$KeySet.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$Values.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] org/apache/hadoop/security/ already added, skipping
+[INFO] org/apache/hadoop/util/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] LICENSE.txt already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] Building jar: D:\Other\map.reduce\map.reduce\target\map.reduce-1.0-SNAPSHOT-jar-with-dependencies.jar
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/org.apache.hadoop.security.token.TokenRenewer already added, skipping
+[INFO] META-INF/services/org.apache.hadoop.security.token.TokenIdentifier already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] org/apache/hadoop/yarn/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factory/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factory/providers/ already added, skipping
+[INFO] org/apache/hadoop/yarn/util/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factories/ already added, skipping
+[INFO] org/apache/hadoop/yarn/server/ already added, skipping
+[INFO] org/apache/hadoop/yarn/server/api/ already added, skipping
+[INFO] org/apache/hadoop/yarn/server/api/protocolrecords/ already added, skipping
+[INFO] org/apache/hadoop/yarn/api/ already added, skipping
+[INFO] org/apache/hadoop/yarn/api/protocolrecords/ already added, skipping
+[INFO] org/apache/hadoop/yarn/api/records/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factory/providers/package-info.class already added, skipping
+[INFO] org/apache/hadoop/yarn/util/package-info.class already added, skipping
+[INFO] org/apache/hadoop/yarn/factories/package-info.class already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/slf4j/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.slf4j/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/google/ already added, skipping
+[INFO] com/google/inject/ already added, skipping
+[INFO] META-INF/DEPENDENCIES already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/google/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/test/ already added, skipping
+[INFO] com/sun/jersey/test/framework/ already added, skipping
+[INFO] com/sun/jersey/test/framework/spi/ already added, skipping
+[INFO] com/sun/jersey/test/framework/spi/container/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey.jersey-test-framework/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] com/sun/jersey/spi/ already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/com.sun.jersey.spi.container.ContainerProvider already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] com/sun/jersey/api/container/ already added, skipping
+[INFO] com/sun/jersey/server/ already added, skipping
+[INFO] com/sun/jersey/server/impl/ already added, skipping
+[INFO] com/sun/jersey/server/impl/container/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] org/glassfish/grizzly/http/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/servlet/ already added, skipping
+[INFO] javax/servlet/http/ already added, skipping
+[INFO] javax/servlet/descriptor/ already added, skipping
+[INFO] javax/servlet/annotation/ already added, skipping
+[INFO] javax/servlet/SessionTrackingMode.class already added, skipping
+[INFO] javax/servlet/AsyncListener.class already added, skipping
+[INFO] javax/servlet/ServletResponse.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeListener.class already added, skipping
+[INFO] javax/servlet/FilterRegistration.class already added, skipping
+[INFO] javax/servlet/AsyncEvent.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeEvent.class already added, skipping
+[INFO] javax/servlet/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/http/Part.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequest.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponse.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/http/NoBodyResponse.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionAttributeListener.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/http/HttpSessionContext.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/http/HttpSessionActivationListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionEvent.class already added, skipping
+[INFO] javax/servlet/http/Cookie.class already added, skipping
+[INFO] javax/servlet/http/HttpUtils.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/http/HttpSessionListener.class already added, skipping
+[INFO] javax/servlet/http/HttpServlet.class already added, skipping
+[INFO] javax/servlet/http/HttpSession.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings_es.properties already added, skipping
+[INFO] javax/servlet/http/NoBodyOutputStream.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingEvent.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingListener.class already added, skipping
+[INFO] javax/servlet/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeListener.class already added, skipping
+[INFO] javax/servlet/FilterConfig.class already added, skipping
+[INFO] javax/servlet/ServletRequestListener.class already added, skipping
+[INFO] javax/servlet/Filter.class already added, skipping
+[INFO] javax/servlet/MultipartConfigElement.class already added, skipping
+[INFO] javax/servlet/GenericServlet.class already added, skipping
+[INFO] javax/servlet/ServletContextEvent.class already added, skipping
+[INFO] javax/servlet/descriptor/JspPropertyGroupDescriptor.class already added, skipping
+[INFO] javax/servlet/descriptor/TaglibDescriptor.class already added, skipping
+[INFO] javax/servlet/descriptor/JspConfigDescriptor.class already added, skipping
+[INFO] javax/servlet/ServletInputStream.class already added, skipping
+[INFO] javax/servlet/UnavailableException.class already added, skipping
+[INFO] javax/servlet/FilterChain.class already added, skipping
+[INFO] javax/servlet/ServletRegistration$Dynamic.class already added, skipping
+[INFO] javax/servlet/SingleThreadModel.class already added, skipping
+[INFO] javax/servlet/HttpMethodConstraintElement.class already added, skipping
+[INFO] javax/servlet/HttpConstraintElement.class already added, skipping
+[INFO] javax/servlet/Registration.class already added, skipping
+[INFO] javax/servlet/DispatcherType.class already added, skipping
+[INFO] javax/servlet/ServletException.class already added, skipping
+[INFO] javax/servlet/Registration$Dynamic.class already added, skipping
+[INFO] javax/servlet/ServletContextListener.class already added, skipping
+[INFO] javax/servlet/ServletRequestEvent.class already added, skipping
+[INFO] javax/servlet/ServletOutputStream.class already added, skipping
+[INFO] javax/servlet/ServletRegistration.class already added, skipping
+[INFO] javax/servlet/ServletRequest.class already added, skipping
+[INFO] javax/servlet/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/SessionCookieConfig.class already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeEvent.class already added, skipping
+[INFO] javax/servlet/ServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/RequestDispatcher.class already added, skipping
+[INFO] javax/servlet/annotation/HttpMethodConstraint.class already added, skipping
+[INFO] javax/servlet/annotation/ServletSecurity$TransportGuarantee.class already added, skipping
+[INFO] javax/servlet/annotation/HandlesTypes.class already added, skipping
+[INFO] javax/servlet/annotation/WebListener.class already added, skipping
+[INFO] javax/servlet/annotation/ServletSecurity$EmptyRoleSemantic.class already added, skipping
+[INFO] javax/servlet/annotation/MultipartConfig.class already added, skipping
+[INFO] javax/servlet/annotation/WebInitParam.class already added, skipping
+[INFO] javax/servlet/annotation/ServletSecurity.class already added, skipping
+[INFO] javax/servlet/annotation/HttpConstraint.class already added, skipping
+[INFO] javax/servlet/annotation/WebFilter.class already added, skipping
+[INFO] javax/servlet/annotation/WebServlet.class already added, skipping
+[INFO] javax/servlet/ServletContext.class already added, skipping
+[INFO] javax/servlet/ServletConfig.class already added, skipping
+[INFO] javax/servlet/ServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/Servlet.class already added, skipping
+[INFO] javax/servlet/ServletContainerInitializer.class already added, skipping
+[INFO] javax/servlet/AsyncContext.class already added, skipping
+[INFO] javax/servlet/ServletSecurityElement.class already added, skipping
+[INFO] javax/servlet/FilterRegistration$Dynamic.class already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/javax.ws.rs.ext.MessageBodyReader already added, skipping
+[INFO] META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/xml/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/DEPENDENCIES already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/org.apache.hadoop.security.SecurityInfo already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/google/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.commons/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/servlet/ already added, skipping
+[INFO] javax/servlet/http/ already added, skipping
+[INFO] javax/servlet/Filter.class already added, skipping
+[INFO] javax/servlet/FilterChain.class already added, skipping
+[INFO] javax/servlet/FilterConfig.class already added, skipping
+[INFO] javax/servlet/GenericServlet.class already added, skipping
+[INFO] javax/servlet/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/RequestDispatcher.class already added, skipping
+[INFO] javax/servlet/Servlet.class already added, skipping
+[INFO] javax/servlet/ServletConfig.class already added, skipping
+[INFO] javax/servlet/ServletContext.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeEvent.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeListener.class already added, skipping
+[INFO] javax/servlet/ServletContextEvent.class already added, skipping
+[INFO] javax/servlet/ServletContextListener.class already added, skipping
+[INFO] javax/servlet/ServletException.class already added, skipping
+[INFO] javax/servlet/ServletInputStream.class already added, skipping
+[INFO] javax/servlet/ServletOutputStream.class already added, skipping
+[INFO] javax/servlet/ServletRequest.class already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeEvent.class already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeListener.class already added, skipping
+[INFO] javax/servlet/ServletRequestEvent.class already added, skipping
+[INFO] javax/servlet/ServletRequestListener.class already added, skipping
+[INFO] javax/servlet/ServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/ServletResponse.class already added, skipping
+[INFO] javax/servlet/ServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/SingleThreadModel.class already added, skipping
+[INFO] javax/servlet/UnavailableException.class already added, skipping
+[INFO] javax/servlet/http/Cookie.class already added, skipping
+[INFO] javax/servlet/http/HttpServlet.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequest.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponse.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/http/HttpSession.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionActivationListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionAttributeListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingEvent.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionContext.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionEvent.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionListener.class already added, skipping
+[INFO] javax/servlet/http/HttpUtils.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/http/LocalStrings_es.properties already added, skipping
+[INFO] javax/servlet/http/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/http/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/http/NoBodyOutputStream.class already added, skipping
+[INFO] javax/servlet/http/NoBodyResponse.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/mortbay/ already added, skipping
+[INFO] org/mortbay/servlet/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.mortbay.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/jasper/ already added, skipping
+[INFO] org/apache/jasper/compiler/ already added, skipping
+[INFO] org/apache/jasper/compiler/Localizer.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/servlet/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] org/apache/commons/httpclient/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] org/apache/commons/collections/ already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap.class already added, skipping
+[INFO] org/apache/commons/collections/ArrayStack.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$Values.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$1.class already added, skipping
+[INFO] org/apache/commons/collections/Buffer.class already added, skipping
+[INFO] org/apache/commons/collections/BufferUnderflowException.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$KeySet.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$EntrySet.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] org/apache/commons/beanutils/ already added, skipping
+[INFO] org/apache/commons/beanutils/BasicDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/BasicDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanAccessLanguageException.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanUtilsBean$1.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConstructorUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/ContextClassLoaderLocal.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConversionException.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConvertUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConvertUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/Converter.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConvertingWrapDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/DynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/DynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/DynaProperty.class already added, skipping
+[INFO] org/apache/commons/beanutils/JDBCDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/LazyDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/LazyDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/LazyDynaMap.class already added, skipping
+[INFO] org/apache/commons/beanutils/MappedPropertyDescriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/MethodUtils$MethodDescriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/MethodUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/MutableDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/NestedNullException.class already added, skipping
+[INFO] org/apache/commons/beanutils/PropertyUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/PropertyUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/ResultSetDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/ResultSetIterator.class already added, skipping
+[INFO] org/apache/commons/beanutils/RowSetDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/WrapDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/WrapDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ already added, skipping
+[INFO] org/apache/commons/beanutils/converters/AbstractArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BigDecimalConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BigIntegerConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BooleanArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BooleanConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ByteArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ByteConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/CharacterArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/CharacterConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ClassConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/DoubleArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/DoubleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/FileConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/FloatArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/FloatConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/IntegerArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/IntegerConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/LongArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/LongConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ShortArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ShortConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/SqlDateConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/SqlTimeConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/SqlTimestampConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/StringArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/StringConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/URLConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/ already added, skipping
+[INFO] org/apache/commons/beanutils/locale/BaseLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtils$Descriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$1.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$Descriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleConvertUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleConvertUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/ already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/BigDecimalLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/BigIntegerLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/ByteLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/DateLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/DecimalLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/DoubleLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/FloatLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/IntegerLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/LongLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/ShortLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/SqlDateLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/SqlTimeLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/SqlTimestampLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/StringLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/collections/ already added, skipping
+[INFO] org/apache/commons/collections/ArrayStack.class already added, skipping
+[INFO] org/apache/commons/collections/Buffer.class already added, skipping
+[INFO] org/apache/commons/collections/BufferUnderflowException.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$1.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$EntrySet.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$KeySet.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$Values.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] org/apache/hadoop/security/ already added, skipping
+[INFO] org/apache/hadoop/util/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] LICENSE.txt already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  33.508 s
+[INFO] Finished at: 2024-02-15T20:48:35+02:00
+[INFO] ------------------------------------------------------------------------
+	733
+#72960]	1
+$12,000	1
+$150,000.	1
+$5,000)	1
+&	1
+($1	1
+(801)	1
+(I	1
+(a)	1
+(and	1
+(any	1
+(b)	1
+(c)	1
+(cover)]	1
+(does	1
+(if	1
+(logo	1
+(logo)]	1
+(logs),	1
+(or	3
+(so	1
+(the	1
+(trademark/copyright)	1
+(www.gutenberg.org),	1
+(“the	1
+*	35
+***	4
+-	3
+1	1
+1,	1
+1.	1
+1.A.	1
+1.B.	1
+1.C	1
+1.C.	1
+1.D.	1
+1.E	1
+1.E.	1
+1.E.1	3
+1.E.1.	2
+1.E.2.	1
+1.E.3.	1
+1.E.4.	1
+1.E.5.	1
+1.E.6.	1
+1.E.7	2
+1.E.7.	1
+1.E.8	2
+1.E.8.	2
+1.E.9.	3
+1.F.	1
+1.F.1.	1
+1.F.2.	1
+1.F.3,	3
+1.F.3.	2
+1.F.4.	1
+1.F.5.	1
+1.F.6.	1
+10	1
+10,000	1
+100	1
+10th,	1
+11	1
+110.	1
+11th,	1
+12	2
+1200	1
+12th	1
+13,	1
+13th	2
+13th,	1
+14	2
+14,	1
+140	1
+14th,	2
+150	1
+1500	1
+15th,	1
+165	1
+16th	2
+17	2
+175	1
+1777	1
+1778,	1
+17th	2
+17th,	3
+18	1
+1800	1
+1845	1
+1849	1
+1849.	1
+1851.	1
+1853,	1
+1854,	1
+1861,	1
+1870	1
+1872,	3
+1873,	1
+1875.	1
+1880,	1
+1893,	1
+1895,	1
+1896	1
+1896,	1
+1896.	1
+1898,	4
+18th,	1
+19	1
+1902	1
+1902,	1
+1906,	1
+1907,	1
+1907.	1
+1909,	1
+1913.	2
+1914	1
+1914,	1
+1914.	1
+1915,	1
+1916,	1
+1917	1
+1923	1
+1925	1
+1926,	1
+1926.	1
+1927	2
+1927,	11
+1927.	2
+1927]	1
+1928	3
+1928,	2
+1967	1
+19th	1
+1st,	3
+2.	1
+20%	1
+20,000	1
+200	1
+2000	1
+2001,	1
+2024	1
+20th	1
+21	1
+21st	1
+23,	1
+238	3
+238,	1
+24	4
+24-pounders;	1
+25.	1
+2500	1
+26th	1
+26th,	1
+27	2
+27,	2
+27th,	1
+2800	1
+28th,	1
+29	2
+295	1
+29th,	2
+2nd	1
+2nd,	1
+3	2
+3.	1
+30	1
+300	1
+30th	1
+30th,	1
+31	1
+34	1
+34½	1
+35	1
+3500	1
+368	1
+37	1
+39	1
+3rd,	1
+4	3
+4,	1
+4.	1
+400	1
+400,	1
+41	1
+42	1
+43	1
+4400	1
+45	1
+46	1
+48	1
+4th	4
+4th,	1
+5	1
+5.	1
+50	3
+500	2
+5000	1
+501(c)(3)	1
+51	1
+52	1
+53	1
+56	1
+57	1
+59	1
+596-1887.	1
+5th	1
+5th,	1
+6	1
+60	2
+600,	1
+61	1
+63	1
+64-6221541.	1
+65	2
+67	1
+69	1
+6th,	1
+7	2
+7.15	1
+70	1
+72	1
+73	1
+75	1
+77	1
+78	1
+7th	1
+7th,	1
+8	3
+80	1
+809	1
+84116,	1
+85	1
+90	2
+9th	1
+9th,	2
+A	21
+ACTUAL,	1
+AGENT	1
+AGREE	2
+AGREEMENT	1
+ALL	1
+AND	6
+ANY	3
+ANYTHING	1
+ASCII”	2
+ASIA	1
+AT	2
+About	4
+According	1
+Adams,	1
+Additional	1
+After	9
+Again	4
+Agent,	1
+Agent,”	1
+All	17
+Already	1
+American	1
+Americans,	1
+Amesbury	2
+Amesbury,	2
+Among	2
+An	3
+And	4
+Andrews	1
+Andrews,	1
+Ann	1
+Ann;	1
+Another	3
+Any	1
+Approaching	1
+April	1
+April,	2
+Archive	13
+Arriving	1
+As	10
+Asia	1
+Associates	1
+At	10
+Atkins	4
+Atkins,	2
+Atkins’	1
+Atlanta	2
+Atlanta.	1
+Atlantic	8
+Atwood,	1
+August	1
+Augustus	1
+Aurey	1
+Author:	1
+Author’s	1
+Avalon	2
+Avalon,	1
+Avon	1
+BARGE	1
+BARGES	2
+BARGES]	1
+BARK	1
+BE	1
+BEACH	1
+BEACH,	1
+BEFORE	1
+BELL	1
+BELL]	1
+BOSTON	1
+BREACH	2
+BRITISH	1
+BUT	1
+BY	2
+Baker	1
+Balmaha	1
+Balmaha,	1
+Baltimore	2
+Bangor	2
+Bangor,	2
+Bar	1
+Barges	2
+Bark	3
+Barnes,	1
+Barnes.	1
+Bars	4
+Bars,	2
+Bars.	2
+Barton	1
+Barton,	1
+Bay	5
+Bay.	1
+Bay;	1
+Beach	1
+Beach,	1
+Before	3
+Bell	1
+Bell,	1
+Ben	2
+Beneath	2
+Bermuda	1
+Bermuda,	1
+Bermuda.	1
+Besides	2
+Between	1
+Big	1
+Bishop.	1
+Blandburg,	1
+Board	1
+Boat	1
+Boats	1
+Boats,	1
+Bob	1
+Boston	19
+Boston,	12
+Boston.	5
+Both	1
+Bram	11
+Bram,	2
+Breakwater	1
+Breakwater,	1
+Briggs,	1
+British	5
+Broad	1
+Brought	1
+Brown	4
+Brown,	3
+Brown’s	1
+Brynhilda,	1
+Building	1
+Bunker	1
+Buoy,	1
+Bureau	1
+But	17
+By	8
+CALLED	1
+CANKEROUS	1
+CAPE	7
+CASTAGNIA	1
+CELESTE	1
+CHAMBER	1
+CHATHAM	1
+CHATHAM,	1
+CLARA	2
+CLIFF	1
+CLIFFS	2
+COAST	1
+COD	4
+COD]	2
+COD’S	1
+COHORTS	1
+COLERAINE	1
+COMMERCE	1
+CONSEQUENTIAL,	1
+CONTENTS	1
+CONTRACT	1
+CRAFT	1
+Cahoons	2
+Cahoon’s	2
+Calcutta	2
+Canal	1
+Canal,	2
+Canal.	2
+Cape	43
+Capt.	53
+Captain	16
+Cassidy	1
+Castagnia	1
+Caught	1
+Celeste	8
+Celeste,	5
+Celeste’s	1
+Cemetery	1
+Chaleurs	1
+Chamber	1
+Charles	4
+Charlestown	2
+Charlestown,	1
+Chas.	1
+Chase	1
+Chatham	5
+Chatham,	1
+Chatham.	1
+Chelsea	1
+Chips	1
+Christmas	1
+City,	1
+Civil	3
+Clara	2
+Cliffs.	1
+Club	1
+Coal	1
+Coast	39
+Coast,	1
+Coastwise	1
+Cod	16
+Cod,	11
+Cod.	7
+Cod;	1
+Cod?”	1
+Cod’s	1
+Col.	1
+Cole	2
+Coleraine	4
+Collier	1
+Collins.	1
+Commerce,	1
+Companies	1
+Company	2
+Company,	3
+Compliance	1
+Conditions	1
+Congress	1
+Contact	1
+Contributions	1
+Copyright	1
+Cosulich	1
+Cottages	1
+Could	1
+Craft	1
+Creating	1
+Credits:	1
+Cuba.	1
+Cyclops,	1
+DAMAGE.	1
+DAMAGES	2
+DECK	1
+DEDICATES	1
+DEEP	1
+DESIGNED	1
+DEVIL,	1
+DICKY	2
+DID	1
+DIRECT,	1
+DISASTER	2
+DISCLAIMER	1
+DISTRIBUTE	1
+DISTRIBUTOR	1
+DO	1
+DONATIONS	1
+DONE	1
+DRIFTING	1
+Dakin	2
+Dakin’s	1
+Danes	1
+Daniel	1
+Darkness	1
+David	1
+Davis	3
+December	11
+December,	5
+Deep	1
+Defect	1
+Delaware	2
+Department	1
+Despite	1
+Destruction	1
+Dialect	1
+Dicky	4
+Did	1
+Disaster	2
+Distributed	1
+Diver	1
+Do	3
+Doane	1
+Donations	2
+Dorothy	1
+Douglas,	1
+Dressing	1
+During	2
+E.	6
+EBOOK	2
+EIN	1
+ELSIA	1
+END	1
+EVEN	1
+EXCEPT	1
+EXPRESS	1
+Each	1
+Eadie	2
+Eadie,	1
+Early	1
+East	3
+East,	1
+Eight	3
+Eldredge	6
+Eldredge,	3
+Elisha	2
+Elizabeth	1
+Ellis	1
+Elmer	1
+Elsia	3
+Email	1
+End	1
+Engine	1
+England	5
+England,	1
+England.	1
+English	1
+Ernest	1
+Eugene	1
+Europe	1
+Europe.	1
+Every	10
+Except	2
+FESTERED	1
+FEW	2
+FIENDISH	1
+FITNESS	1
+FITZPATRICK	1
+FLEET	1
+FOR	5
+FOUNDATION,	1
+FRANCIS	1
+FULL	2
+FULLER	1
+Far	1
+Favoring	1
+February	5
+Federal	1
+Ferri,	1
+Few	1
+Fiction	1
+Finally	1
+Finally,	1
+Fisher,	2
+Fishing	1
+Fitzpatrick	1
+Fitzpatrick,	2
+Fleet	1
+Fleet,	1
+Fleet.”	1
+Following	2
+For	9
+Fore	1
+Fortunately	3
+Forty	1
+Foundation	13
+Foundation,	5
+Foundation.	1
+Foundation.”	1
+Foundation’s	3
+Foundation”	1
+Four	1
+Foye	1
+Foye,	1
+France	1
+France.	1
+Francis	2
+Francis,	1
+French	1
+Friday,	1
+Friends	1
+From	5
+Full	1
+Fuller	4
+Fuller,	2
+Fuller.	1
+G.	3
+GALE,	1
+GETTYSBURG	1
+GIFT	1
+GIOVANNI	1
+GIVE	1
+GUARD	1
+GUTENBERG	3
+GUTENBERG™	1
+Gale,	1
+General	3
+Genoa,	2
+George	4
+George,”	1
+German	1
+Germany,	1
+Gettysburg	1
+Gettysburg,	1
+Gifford	1
+Gift	1
+Giovanni	1
+Giovanni,	1
+Gloucester	1
+Gloucester,	2
+Golf	1
+Government	5
+Granny	3
+Granny’s	2
+Great	1
+Guard	31
+Guardsmen	5
+Guardsmen,	1
+Gurnet,	1
+Gutenberg	22
+Gutenberg:	1
+Gutenberg”	4
+Gutenberg”),	1
+Gutenberg™	53
+Gutenberg™,	1
+Gutenberg™.	1
+Gutenberg™’s	1
+H.	6
+HAS	1
+HAVE	2
+HE	1
+HERBERT	1
+HIGHLAND	4
+HIGHLANDS	1
+HIS	1
+HOUSE	1
+HUNDRED	1
+Had	3
+Haines	3
+Haines,	1
+Haines’	1
+Halifax	3
+Hallet	1
+Hamilton,	1
+Hampshire,	1
+Harbor	4
+Harbor,	3
+Harbor.	5
+Hardly	1
+Hart	1
+Harvard	2
+Harwood	1
+Haven	2
+Hayes	3
+He	18
+Head	1
+Heavens,	1
+Her	8
+Herbert	3
+High	1
+Higher	1
+Highland	35
+Highlands	1
+Hill	12
+Hills	1
+Hollow	4
+Hoping	2
+Hospital	1
+Hotel,	2
+House	2
+House,	1
+House.	1
+House]	1
+However,	1
+Hudson.	1
+Hyannis	1
+I	37
+I.	1
+IF	1
+IMPLIED,	1
+IN	1
+INC.	1
+INCIDENTAL	1
+INCLUDING	1
+INDEMNITY	1
+INDIRECT,	1
+IRS.	1
+ISAAC	2
+IT	2
+ITS	1
+If	23
+Illustrations	2
+Immediately	1
+In	34
+Inc,	1
+India	2
+India,	1
+Indies	1
+Information	4
+Insurance	1
+Internal	1
+International	1
+Into	2
+Isaac	1
+Isaiah	1
+Island	2
+Israel	3
+Israel,	1
+It	26
+Italian	4
+Italians	1
+I’d	2
+I’ll	1
+J.	1
+JACKSON	1
+JASON	1
+JASON]	1
+JOB	1
+JOHN	1
+JOSEPHUS	1
+Jackson	2
+Jackson,	1
+Jane	1
+January	3
+January,	4
+Japanese	1
+Jason	1
+Jason,	1
+Jersey	1
+Jersey,	1
+Job	2
+John	3
+Jonathan	2
+Josephus	1
+Jot	1
+June	1
+June,	1
+June.	1
+Just	3
+KIND,	1
+Kelley	1
+Kelley,	1
+Kendrick	1
+Kendrick,	1
+Kerosene	1
+Knowing	1
+Kortling	1
+Kortling,	1
+LARGEST	1
+LAWSON	1
+LEE	1
+LIABILITY,	1
+LIABLE	1
+LICENSE	2
+LIGHT	1
+LIGHT,	2
+LIMITED	3
+LITTLE	1
+LOSS	11
+Lake	1
+Language:	1
+Largest	1
+Larkin	1
+Late	5
+Later	3
+Lawson	1
+Lawson,	1
+Lawson--the	1
+Leaving	1
+Lee	1
+Lee_	2
+Leopold	1
+Lester	1
+License	8
+License.	2
+Life	17
+Light	6
+Light)	1
+Light,	11
+Light.	7
+Lighthouse,	1
+Lighthouse.	2
+Lighthouses,	1
+Lightship.	1
+Like	1
+Lillian	1
+Line,	2
+List	1
+Literary	13
+Little	2
+London	2
+London.	1
+Long	2
+Losing	2
+Loss	11
+Lucy	5
+Lucy’s	2
+Lying	1
+M.	6
+MAN	2
+MANY	2
+MARINE	1
+MARY	1
+MASS.	1
+MASSACHUSETTS	1
+MAY	1
+MERCHANTABILITY	1
+MIND	1
+MONTCLAIR	1
+MONTE	2
+MURDER?	1
+MUTE	1
+MYSTERIES	1
+MYSTERY	2
+Mail	1
+Maine	1
+Maine,	2
+Man	2
+Manheim	3
+Manheim,	1
+Manheim.	2
+Manila	1
+Manomet	5
+Manomet,	1
+Many	7
+March	5
+Marconi	1
+Marie	1
+Marine	2
+Mars,	1
+Mary	5
+Mass.	1
+Mass:	1
+Massachusetts	4
+Mattern	1
+Maud	1
+May	1
+Mayo	2
+Mayo,	1
+Mayo.	2
+McMillan.	1
+Meals	1
+Meanwhile	1
+Melbourne.	2
+Men	4
+Michael	1
+Michaels	2
+Michaels.	1
+Militia	1
+Miss	1
+Mission	1
+Mississippi	1
+Monday	1
+Monday,	1
+Monks	5
+Monks,	3
+Monks.	1
+Monks’	1
+Monomoy	3
+Monomoy.	1
+Montclair	2
+Monte	2
+Monument	1
+Morrill,	1
+Morrill.	2
+Most	1
+Mr.	8
+Mrs.	2
+Murder?	1
+My	3
+Mysteries	1
+Mystery	3
+N.	1
+NEGLIGENCE,	1
+NO	2
+NORTH	3
+NOT	2
+NOTICE	1
+NUMBER	1
+Nantucket	4
+Nantucket,	1
+Nantucket.	1
+Nash,	2
+Nash’s	1
+Nauset	2
+Naval	1
+Navy	4
+Navy,	2
+Navy.	1
+Nearly	1
+Ned	6
+Ned,	3
+Ned.	2
+Ned’s	2
+Never	1
+New	17
+Newspapers]	1
+Next	1
+Niagara.	1
+Nick	2
+Nickerson	1
+Night	1
+No	6
+No.	3
+None	1
+North	10
+Norwegians.	1
+Not	4
+Notes	1
+November	6
+November,	3
+Now	2
+Number	1
+O.	2
+OAKLAND	1
+OAKLAND]	1
+OCCURRED	1
+OF	45
+OFF	1
+ON	5
+OR	6
+ORLEANS	1
+OTHER	1
+OWNER,	1
+Oakland	1
+Oakland,	1
+October	3
+October,	1
+Of	3
+Office,	1
+Old	1
+Olive	1
+Olsen,	1
+On	28
+One	6
+Online	1
+Only	4
+Original	1
+Orleans	4
+Other	1
+Out	5
+Over	6
+Owing	1
+P	1
+P.	4
+PAGE	1
+PALMER	1
+PARAGRAPH	1
+PERUVIAN	1
+PG	1
+PGLAF),	1
+PLEASE	1
+POINT	1
+POINT,	1
+PORTLAND	1
+POSSIBILITY	1
+PREFACE	1
+PRESS	1
+PROJECT	4
+PROVIDED	1
+PUNITIVE	1
+PURPOSE.	1
+Pacific	1
+Palermo	1
+Palmer	11
+Palmer,	10
+Palmer.	1
+Pamet	3
+Panama	1
+Paoli,	1
+Pass	1
+Paul	3
+Paulding	2
+Paulding,	1
+Peaked	12
+Pennsylvania,	1
+People	1
+Perhaps	1
+Peruvian	5
+Peruvian.	1
+Peter	7
+Peter,	2
+Peter’s	1
+Philadelphia	1
+Philadelphia,	2
+Philadelphia.	1
+Piece	1
+Pine,	1
+Place	1
+Please	2
+Plymouth,	1
+Point	16
+Point,	2
+Point.	2
+Polly	9
+Polly,	3
+Polly.	1
+Polly;	1
+Polly’s	3
+Port	2
+Portland	8
+Portland,	2
+Post	1
+Preface	1
+Prescott	1
+President	1
+Presidente	2
+Press	1
+Pretty	1
+Prison	2
+Professor	1
+Project	79
+Proofreading	1
+Provincetown	13
+Provincetown.	4
+Punctuation,	1
+Quincy,	1
+RACE	2
+READ	1
+REFUND	1
+REINHART	1
+REMAINED	1
+REMAINS	1
+REMEDIES	1
+REPLACEMENT	1
+REPORTING	1
+RESPECTFULLY	1
+RIGHT	1
+ROBERT	1
+ROGER	2
+Race	17
+Railroad	1
+Rapid	1
+Reading	2
+Reading,	1
+Redistributing	1
+Redistribution	1
+Refund”	1
+Reinhart	1
+Reinhart,	1
+Release	1
+Relic	1
+Replacement	1
+Reporting	3
+Representative	1
+Reprinted	1
+Reserves.	1
+Revenue	1
+Rider,	4
+Rider’s	2
+Ridge	2
+Ridge,	1
+Rigging,	1
+Riotous	1
+River	4
+Robert	1
+Rockport	2
+Rocks,”	1
+Roger	3
+Rogers	4
+Rough	1
+Royalty	2
+Rushing	1
+Russian	1
+Ruth	3
+Ruth’s	1
+S-4	4
+S-4,	1
+S.	4
+S.S.	1
+SCHEME,	1
+SCHOONER	1
+SEA	2
+SEAS	1
+SEA]	1
+SELF-STEERED	1
+SEND	1
+SHIP	2
+SHIPS	1
+SHIPWRECKS	4
+SIGHTED	1
+SIGNAL	1
+SILVA	1
+SIXTY	1
+SLOOP	1
+SMALL	2
+SOMERSET	1
+SOMERSET--BRITISH	1
+START	1
+START:	1
+STATION	1
+STEAMSHIP	1
+STORM	1
+STORY	2
+STRANDING	2
+STRICT	1
+SUBMARINE	1
+SUBMARINE.”	1
+SUCH	1
+SUMMER	1
+Sabbath	1
+Salt	1
+Samuel	1
+Sandwich	2
+Sandwich,	1
+Sandwich.	1
+Saturday	2
+Savers	8
+Savers.	1
+Saving	8
+Scarcely	1
+Schooner	1
+Scituate,	1
+Sea	2
+Seattle	1
+Secretary	1
+Section	7
+Sections	1
+See	2
+Selectmen	1
+Self-Steered	1
+September	3
+Service.	1
+Session	1
+Seven	1
+Several	1
+She	29
+Ship	3
+Shipwrecks	2
+Shoals,	3
+Shoals.	1
+Shortly	2
+Sicily,	1
+Signal	2
+Silva	3
+Silvey,	1
+Simple	1
+Singleton	1
+Situated	1
+Six	1
+Sloop	1
+Slowly	1
+Small	5
+Small,	3
+Small’s	1
+Smith,	2
+Smith.	1
+So	6
+Some	5
+Somebody	2
+Somerset	2
+Somerset--British	1
+Sometimes	1
+Somewhere	1
+Soon	15
+Soon,	1
+Sound	1
+Sound,	2
+South	1
+Special	1
+Spencer	1
+Spencer,	1
+Standing	1
+State	1
+States	11
+States,	4
+States.	5
+States._	1
+Station	15
+Station,	7
+Station.	6
+Stations	1
+Stations,	1
+Steam	1
+Steamship	2
+Stephen	2
+Steve	1
+Still	1
+Story	1
+Stranding	2
+Submarine	1
+Submarines	1
+Such	1
+Suddenly	2
+Suddenly,	1
+Summer	1
+Sunday	12
+Sunday,	2
+Surf	1
+Surfman	2
+Swede;	1
+Swinging	1
+TABER	1
+TABER--AFTER	1
+TERRIBLE	2
+THAT	3
+THE	55
+THERE	1
+THEY	1
+THIS	4
+THOMAS	1
+THOSE	1
+TO	3
+TOGETHER,	1
+TOW	1
+TRACY	1
+TRADEMARK	1
+TRAGEDY	2
+TRUMBULL	1
+TRURO	1
+TRURO,	1
+TRURO]	1
+Taber	2
+Taylor	2
+Taylor,	1
+Team	1
+Telegraph	1
+Telephone	1
+Terms	2
+Terrible	2
+That	3
+Thatcher’s	1
+The	175
+Their	2
+Theirs	1
+Then	15
+Then,	1
+There	18
+These	7
+They	10
+This	36
+Thomas	4
+Those	3
+Though	1
+Three	3
+Thus,	1
+Title:	1
+To	6
+Tobin	2
+Tobin,	1
+Tom	1
+Tow	1
+Towards	1
+Tracy	3
+Tracy,	1
+Tragedy	2
+Transcriber’s	1
+Transportation	2
+Trapan,	1
+Triggs	3
+Triggs,	1
+Triggs’	1
+Trumbull	2
+Truro	1
+Truro,	1
+Tuesday,	1
+Tunnel	3
+Twice	1
+Two	2
+U.	1
+U.S.	7
+UNDER	1
+USE	1
+UT	1
+Uncle	1
+Under	1
+Union	1
+United	21
+Unless	1
+Up	3
+Updated	1
+Use	2
+VISITORS	1
+VOLUME	1
+Vanilla	2
+Vannah	2
+Vannah.	1
+Very	1
+View,	1
+Vineyard	4
+Volunteers	1
+W.	5
+WADENA	1
+WAR	1
+WARRANTIES	2
+WARRANTY	1
+WARRANTY,	1
+WAR]	1
+WAS	1
+WATCHED	1
+WHAT	2
+WHERE	1
+WHICH	1
+WHO	1
+WILL	1
+WITH	1
+WORK	1
+WORK]	1
+WRECK	6
+Wadena	3
+Wadena,	1
+Walter	1
+War	4
+War,	1
+Was	1
+Washington	1
+Watchers	1
+We	12
+Weakened	1
+Weather	1
+Wellfleet	3
+Wellfleet.	2
+West,	1
+Westerburg,	1
+Western	1
+Wharf	1
+What	4
+When	19
+Where	1
+While	1
+Whittemore,	1
+Wilbur,	1
+Williams,	1
+Wilson	1
+Wilson,	1
+Wireless	1
+With	7
+Wm.	1
+Wood	1
+World	1
+World,	1
+Wreck	3
+Wrecked	2
+Wurtenburg,	1
+YEARS	1
+YOU	6
+Yard	1
+Yard.	1
+Yarmouth	1
+Years	1
+York	4
+York,	4
+You	12
+Young,	2
+[Illustration:	19
+[Illustration]	9
+[eBook	1
+]	2
+_A	2
+_Lee_,	1
+_Robert	2
+a	567
+abaft	1
+abandon	1
+abandoned	2
+abandoned,	1
+abandoned.	1
+abandoning	1
+abatement	1
+abide	1
+able	13
+aboard	4
+about	39
+about.	1
+above	14
+abroad	2
+absent	1
+abuse	1
+accept	1
+accepted	2
+accepted,	1
+accepting	1
+access	10
+accessed,	1
+accessible	1
+accident	1
+accompanied	2
+accomplish	1
+accomplished	2
+accomplished.	1
+accomplishing	1
+accordance	2
+account	1
+accused	3
+accustomed	1
+across	16
+act.	1
+acting	1
+action	2
+active	3
+added	5
+addition	3
+additional	2
+additions	1
+address	1
+addresses.	1
+adequate	1
+adjoining	1
+adrift	1
+advanced	2
+adventures	1
+adverse	2
+advisable	1
+advising	1
+affair	2
+afford	1
+afforded	1
+afloat	2
+aft	1
+aft.	1
+after	36
+afternoon	16
+afternoon,	4
+afternoon.	1
+afterwards	1
+again	16
+again,	4
+again,”	1
+again.	4
+against	12
+age	1
+agent	1
+aghast,	1
+ago	2
+agony,	1
+agree	7
+agreed	1
+agreement	8
+agreement,	6
+agreement.	3
+aid	4
+ain’t	3
+air	1
+air,	1
+alarm	1
+alcohol.	1
+alive	7
+alive,	3
+alive.	1
+alive.”	1
+all	92
+allow	3
+allowed	1
+almost	17
+alone	3
+along	31
+along;	1
+alongside.	1
+already	6
+also	3
+alteration,	1
+alternate	1
+although	1
+always	1
+always,	1
+am	2
+amazingly,	1
+amid	2
+amidships,	1
+among	5
+amount	1
+amputation	1
+an	46
+anchor	5
+anchorage	3
+anchorage,	1
+anchored	1
+anchors	8
+anchors,	1
+anchors.	1
+and	973
+angry	4
+annals	1
+another	13
+another,	2
+answer	2
+anticipate	1
+anticipating	1
+anticipation	1
+anxious,	1
+any	57
+any)	1
+anyone	4
+anyone.	1
+anything	3
+anywhere	2
+apart,	1
+appalling	1
+apparatus	5
+apparent,	1
+apparently	1
+appeal	1
+appear	1
+appeared	6
+appearing	1
+appears,	1
+appliances	5
+applicable	3
+applied	1
+applied,	1
+apply	1
+appreciable	1
+appreciate	1
+appreciated	1
+approach	6
+approached	1
+approaching	5
+approximately	2
+are	52
+arise	1
+arising	1
+arms	3
+arose	1
+around	18
+around.	1
+aroused	1
+arrangements	1
+array	1
+arrest	1
+arrival	2
+arriving	1
+arter	1
+as	121
+as,	1
+ashore	8
+ashore,	3
+ashore.	1
+asked	3
+asking	1
+asleep	2
+assembled	2
+assist	3
+assistance	1
+assistance.	2
+assistant	1
+assisted	1
+associated	6
+associated)	1
+assume	1
+assumed	1
+astern.	1
+astonishment	1
+asunder;	1
+at	99
+attached	3
+attained	1
+attained.	1
+attempt	10
+attempt.	1
+attempt.”	1
+attempted	2
+attempting	2
+attempts	3
+attend	1
+attended	3
+attending	1
+authorities	2
+author’s	1
+auto	1
+autocrat,	1
+autumn	1
+avail.	1
+available	4
+available,	1
+available.	1
+avenue	2
+avert	1
+averted	1
+awaited	1
+awaiting	1
+awakened	1
+away	47
+away,	7
+away.	4
+away—you	1
+awful	12
+awfully	1
+axe,	2
+babies	1
+baby	3
+baby’s	1
+back	17
+back,	3
+back;	1
+backing	1
+bad	5
+badly	2
+baffled	1
+bags	2
+bales.	1
+ball	1
+banks	1
+banks.	2
+bar	12
+bar,	3
+bar.	3
+bar;	1
+bare	2
+barge	22
+barge,	2
+barge.	5
+barge;	1
+barges	17
+barges,	4
+barges.	1
+bark	9
+bark,	1
+barkentine	2
+bark’s	1
+barred	3
+barrels	1
+bars	9
+bars,	5
+bars.	5
+based	2
+basket	1
+basketful	1
+baskets	2
+baskets.	1
+battered	4
+battle	1
+battle,	1
+battlefields	1
+battleships	1
+battling	2
+bay	5
+bay,	1
+bay.	2
+be	99
+be.	1
+beach	32
+beach,	10
+beach.	7
+beach;	2
+beaches	3
+beacon	1
+beam,	1
+beams,	1
+bearing	2
+bearings	2
+bearings.	1
+bears	1
+beat	4
+beaten	4
+beats,	1
+beautiful	2
+became	22
+because	9
+because,	1
+become	4
+bed	5
+bed,	1
+been	91
+been.	2
+befell	1
+before	33
+before,	3
+before.	2
+began	11
+began,	1
+began.	1
+begin	2
+beginning	6
+begun	1
+begun.	1
+begun;	1
+behavior,	1
+behind	2
+being	29
+being.	1
+beings	1
+believed	8
+believing	4
+bells,	1
+belonged	1
+belonging	1
+below	2
+below,	1
+below.	3
+beneath	6
+bent	1
+benumbed	1
+besides	1
+better	4
+better.	1
+between	13
+between.	1
+beyond	6
+beyond,	1
+big	14
+bilge	1
+bill	1
+binary,	1
+bit	4
+bits	1
+bitten	1
+bitterly	2
+bitterly,	1
+black,	1
+blast	1
+blasts	1
+blew	2
+blinding	3
+blizzard	1
+block	1
+blocked	1
+blocks	1
+blood-stained	1
+bloody	1
+blotted	2
+blow	1
+blowing	2
+blown	4
+blue	8
+blue,	1
+bluff	1
+bluffs	1
+bluffs,	1
+blundered.”	1
+board	20
+board,	4
+board--and	1
+board.	4
+boarding	1
+boards	1
+boat	96
+boat,	21
+boat.	15
+boat;	5
+boatman	1
+boats	18
+boats,	3
+boats.	2
+boatswain	1
+boat’s	1
+bodies	19
+bodies,	1
+bodies.	1
+body	6
+body,	1
+bogs	2
+boiling	2
+boldly	1
+bones	1
+bonfire	2
+book	3
+book;	1
+books	2
+boom	1
+boots	3
+boots.	1
+booty	1
+bordering	1
+bore	2
+borne	3
+both	8
+bottom	16
+bottom,	1
+bottom.	3
+bound	12
+bound;	1
+boundaries	1
+bow	15
+bow,	1
+boxes	1
+boy	3
+boy,	1
+boy,”	1
+boys	3
+boys,	1
+boys,”	3
+boys.	1
+brace	1
+brambles	1
+brave	3
+bravely	1
+break	5
+breakers	2
+breakers.	1
+breakfast	1
+breakfuss	1
+breaking	9
+breaking,	2
+breaking.	2
+breakwater	1
+breath	2
+breathlessly	1
+breeches	1
+breeze	3
+breeze,	1
+brick	1
+bride	1
+brief	1
+briefly	1
+brig	3
+brig,	1
+bright	3
+brightly	1
+brimstone;	1
+bring	2
+bringing	3
+broad-shouldered	1
+broadcast	1
+broadside	1
+broke	6
+broken	33
+broken.	1
+brought	19
+brown	1
+brush	2
+brutally	1
+bubbles	1
+building	6
+buildings	1
+built	9
+built;	1
+bulky	1
+bunches	1
+bundles	1
+bunk	3
+bunks	1
+buoy	1
+buried	8
+burn	1
+burned	1
+burning	1
+bursting	1
+business	7
+business,	1
+business.	2
+but	120
+but,	1
+by	155
+by.	2
+b’lieve	1
+cabin	15
+cabin.	5
+cabin;	1
+cable	1
+calculate	1
+calculated	1
+calculation,	1
+call	4
+called	5
+calls	1
+calm	1
+came	30
+can	16
+can,	1
+cannon	1
+cannot	11
+cannot,”	1
+cannot.	1
+canvas	1
+canvas,	1
+capacity	3
+capacity,	1
+cape	1
+capped	2
+caps	1
+capsize.	2
+capsized.	1
+captain	18
+captain,	1
+captain.	2
+captained	1
+captain’s	6
+card	1
+care	2
+care.	1
+cared	1
+carelessness	1
+cargo	24
+cargo,	1
+cargo.	1
+cargoes.	1
+carpenter	1
+carried	23
+carry	3
+carrying	16
+carted	1
+carts,	1
+case	5
+case,	1
+case;	1
+cases	2
+cases.	1
+casks	1
+cast	2
+casting	1
+cataract	1
+catch	2
+catch.	1
+caught	6
+caught,	1
+cause	1
+cause.	1
+caused	1
+causing	1
+cease	1
+ceased,	1
+cellars	1
+cemetery.	1
+center	1
+centre	1
+century	1
+certain	7
+certainly	2
+chain	1
+chains	2
+chains.	1
+chance	8
+chance,	1
+chances	2
+change	3
+change.	1
+changed	1
+changed.	2
+changes	2
+changing	1
+channel	1
+chap	1
+chapter	2
+charge	12
+charge,	3
+charge.	2
+charged,	1
+charges.	1
+charitable	1
+charities	1
+chart	5
+charter	1
+check	5
+checked	3
+checks,	1
+cheek,	1
+cheerful	1
+child,	1
+childish	1
+children	1
+children,	1
+chill	1
+chilled	3
+chilled,	1
+chip	1
+choose	1
+churchyard.	1
+churned	1
+churning	1
+circumstances	3
+circumstances.	1
+citizen	2
+citizens	1
+city	2
+civilian	1
+civilized	1
+claim	2
+claimed	1
+clanging	1
+class	4
+clean,	1
+clear	10
+clear,	1
+cleared	1
+clearing	1
+clearly	2
+cliff	1
+cliff,	2
+cliffs	6
+cliffs,	1
+cliffs;	1
+climb	1
+climbed	2
+cling	1
+cling,	1
+clinging	8
+close	4
+closely	1
+clothes	1
+clothes,	1
+clothing	2
+clothing.	1
+cloud	1
+clouds,	1
+club	1
+clue	2
+clung	8
+coal	10
+coal.	1
+coarse	1
+coast	42
+coast,	14
+coast.	9
+coasts	2
+coasts,	1
+coastwise	1
+coat,	1
+coatless,	1
+cockleshell,	1
+cocks,	1
+cod	1
+codder	1
+code,	1
+codes	1
+coffin	1
+coffin,	1
+coffin.	1
+coiled	1
+cold	9
+cold,	1
+collection	3
+collection.	1
+color	1
+colored	1
+columns	1
+combine,	1
+come	18
+come.	2
+comes	2
+comfortable	1
+coming	10
+command	3
+commercial	1
+commit	1
+committed	5
+committed,	1
+committed.	1
+communicate	1
+companionway	1
+company	7
+company,	2
+company.	3
+compartments	3
+competency	1
+compilation	1
+complement	3
+complete	2
+completed	2
+completely	9
+compliance	3
+compliance.	1
+comply	6
+complying	3
+compressed,	1
+comprised	1
+comprising	1
+computer	2
+computers	1
+computers.	1
+concealed	1
+conceived	1
+concept	2
+concerned	2
+concerning	6
+condition	3
+condition.	2
+conditions	11
+conditions,	1
+conditions.	2
+conducted	1
+confirmation	1
+confirmed	1
+confronted	1
+confusion	1
+connected	3
+connection	1
+connection.	1
+connection:	1
+conning	2
+considerable	7
+considerably	1
+considered	1
+considers	1
+consisted	2
+consistent	1
+constant	3
+constantly	10
+construct	1
+constructed	1
+construction	4
+contact	3
+contain	2
+containing	1
+continued	1
+continued,	1
+continuing	1
+contract	3
+contracted	1
+contributions	1
+contributor	1
+convert	1
+converted	1
+cook	1
+cook,	2
+copied	2
+copies	7
+copy	8
+copy,	4
+copying	2
+copying,	2
+copyright	18
+corporation	1
+corps,	1
+corrected;	1
+corresponding	1
+corrupt	1
+cost	5
+cost,	1
+costs	2
+cottage	1
+cottage.	1
+cotton	1
+couched	1
+could	69
+could,	2
+could.	1
+couldn’t	1
+counsel	1
+counter	1
+countries	1
+country	6
+country.	2
+coupled	1
+course	6
+course,	1
+course;	1
+cover	1
+cover)]	1
+covered	19
+covering	2
+cozy	1
+craft	21
+craft,	3
+craft.	6
+craft’s	2
+crash	7
+crash,	1
+crash.	1
+crashed	3
+crawl	1
+crazy	1
+created	2
+creating	3
+creation	1
+credit	2
+creeping	1
+creeter	1
+crest	2
+crest;	1
+crested	1
+crests	1
+crew	84
+crew,	4
+crew.	7
+crews	4
+cries	5
+crime	2
+crime,	1
+criminal	2
+critical	1
+criticism	1
+critters	1
+crowd	1
+crowding	1
+crowned	1
+cruel	4
+cruise	2
+cruise,	1
+cruised	1
+cruiser	2
+cruiser,	1
+cruiser’s	1
+crushed	1
+cry	3
+cry.	1
+cry.”	1
+crying	2
+curl	1
+current	2
+current.	1
+currents	1
+custom	1
+custom,	1
+cut	5
+cutter	2
+cutting	2
+daily	3
+damage	1
+damaged	1
+damaged,	1
+damages,	1
+damages.	1
+danger	3
+danger,	2
+danger.	1
+dangerous	4
+dangerously	1
+dangers	1
+dangling	1
+dar	1
+dark	8
+darkness	8
+darkness.	1
+dash	2
+dashed	1
+data,	1
+date	4
+date:	1
+dates,	1
+daughter	6
+daughter,	1
+day	37
+day,	4
+day.	2
+day?	1
+daybreak	2
+daylight	6
+daylight,	1
+daylight;	1
+days	21
+days,	1
+day’s	2
+dazed	1
+dead	9
+dead,	2
+dead.	1
+dear	1
+death	13
+death-dealing	1
+death.	4
+death.”	1
+death;	1
+deaths	2
+deaths.	1
+debris	1
+decade.	1
+decided	8
+deck	25
+deck,	3
+deck-houses,	1
+deck.	4
+deck;	2
+deckhouses	2
+deckload,	1
+decks	12
+decks,	2
+decks.	7
+decks;	1
+declare	1
+declared	2
+deductible	1
+deeds	1
+deemed	1
+deep	8
+deeper	1
+deeply	2
+defect	2
+defective	2
+defective,	1
+definitely	1
+defy	1
+degree	2
+degree,	1
+deletions	1
+delight	1
+deliver	1
+deluge	1
+demand	1
+dense	4
+departed	1
+departure	1
+depended	1
+depends	1
+depth	1
+depths	1
+derelict	2
+derelict,	1
+derivative	3
+derive	1
+derived	1
+describe	2
+described	2
+description	1
+descriptions	1
+desert	1
+deserving	1
+desiring	1
+desolate	2
+desolation.	1
+despair	1
+despairing	2
+desperately	4
+desperately,	1
+destination,	1
+destination.	5
+destroy	2
+destroyed	2
+destruction	5
+destruction,	1
+destruction.	5
+destruction;	1
+destructive	1
+detach	1
+detachment	1
+detail	1
+detail.	1
+details	2
+determine	2
+determined,	2
+determined;	1
+detracting	1
+develop	1
+developed	3
+developing	1
+devil	1
+devoid	1
+did	18
+didn’t	1
+die,	1
+died,	1
+died.	1
+difference	1
+different	3
+difficulty	4
+diminishing	2
+dinner	1
+dinners	1
+directed	2
+direction	1
+direction;	1
+directions	1
+directly	13
+disabled	1
+disappeared	3
+disaster	18
+disaster,	4
+disaster.	7
+disasters	5
+disasters,	1
+discard.	1
+discipline	1
+disclaim	1
+disclaimer	2
+disclaimers	1
+disclosed	1
+discloses	1
+discontinue	1
+discover	1
+discovered	7
+disease	1
+disfigured	1
+dishes	1
+disk	1
+dismantled	1
+dismay	1
+dispatch,	1
+dispatched	1
+displacement,	1
+display,	1
+displayed,	1
+displaying	2
+displaying,	2
+distance	17
+distance,	2
+distant	1
+distinct	1
+distinguish	1
+distorted	1
+distressed	2
+distressing	1
+distribute	5
+distributed	3
+distributed:	1
+distributing	6
+distributing,	1
+distribution	6
+diver	6
+divers	4
+diver’s	2
+divulge	1
+do	29
+dock	1
+does	3
+doing	1
+doin’	1
+dollars	1
+dollars,	1
+dollars.	1
+domain	2
+donate	1
+donate,	1
+donate.	1
+donation	1
+donations	11
+donations.	1
+done	6
+done;	1
+donors	1
+don’t	4
+doom.	1
+doomed	8
+door	1
+doors	1
+dory	5
+dory,	1
+dory;	1
+doubled;	1
+doubt	2
+doubtful	1
+down	61
+down.	4
+down?”	1
+downloading,	1
+dozen	1
+draft	1
+drag	1
+dragged	2
+dragging	4
+draw	3
+drawn	3
+dreaded	3
+dreading	1
+dream.”	1
+drenched,	1
+dress	1
+dressed	1
+dressed,	1
+drift	1
+drifted	3
+drifting	7
+drifts	4
+drifts,	1
+dripping	1
+drive	1
+driven	18
+driven,	1
+driven.	1
+driving	9
+drop	2
+dropped	14
+drops	1
+drove	17
+drown.”	2
+drowned	2
+drowned,	1
+drowned.	2
+drowning	4
+dry	4
+dry,	1
+due	1
+dumbfounded	1
+during	11
+duties	2
+duties.	1
+duty	5
+dwellers	1
+dying	1
+e-mail)	1
+eBook	6
+eBook,	2
+eBook.	2
+eBooks	5
+eBooks,	1
+eBooks.	1
+each	8
+each.	1
+eagerly	1
+earlier	2
+early	5
+earnest	2
+earth	1
+earthly	1
+easily	1
+east	7
+easterly	3
+eastern	1
+eastward	1
+easy,	1
+easy.	1
+ebook	2
+economy,	1
+edge	3
+edict	1
+edition.	1
+editions	3
+editions,	1
+educational	1
+effects,	1
+efficiency	1
+effort	11
+effort,	2
+efforts	5
+efforts,	2
+eight	4
+eighteen	1
+eighty	1
+eighty-five	1
+either	4
+elect	1
+electric	3
+electronic	27
+electronically	1
+electronically,	1
+elements	1
+elements.	1
+email	1
+emblazoned	1
+employee	1
+employees	1
+empty	2
+encounter	1
+encountered	6
+encouragement	1
+end	5
+end,	1
+endeavor	1
+endeavoring	1
+ended	1
+ending	1
+ending.	1
+ends	1
+endurance	2
+endure	1
+endured;	1
+engaged	6
+engine	6
+engine.	2
+engines	3
+engulfed	1
+enmity	1
+enough	6
+enquiries	1
+ensuring	1
+entangled	1
+entered	1
+entering	1
+entire	16
+entirely	3
+entity	3
+entombed	2
+entrance	3
+entrance.	1
+enveloped	2
+equally	1
+equipment	2
+equipment.	2
+equipped	1
+equipped.	1
+ere	1
+error.	1
+errors	1
+errors,	1
+escape	4
+escape,	1
+escape.	2
+escape;	1
+escaped	6
+escaped;	1
+especial	1
+especially	4
+established	1
+estimated	1
+even	12
+evening	1
+eventful	1
+events	3
+ever	32
+every	44
+everybody	1
+everyone	1
+everything	8
+evidence	3
+evident	3
+evidently	1
+example.	1
+except	7
+excited	1
+excitedly	1
+exclaimed	2
+exclusion	2
+exempt	2
+exerted	1
+exertion	4
+exertions	2
+exertions,	1
+exhausted	7
+exhausted,	1
+exhausting	1
+exists	1
+expect	1
+expectancy;	1
+expected	3
+expecting	1
+expend	1
+expense	1
+expenses,	2
+expensive	1
+experience	3
+experiences	2
+explained	1
+explained.	1
+explanation	2
+explanation.	1
+exploded	1
+explosion	1
+exporting	1
+exposed	4
+exposed,	1
+exposed.	1
+exposure	4
+extended	2
+extent	1
+extra	1
+extreme	1
+extreme,	1
+extremely	1
+eye	1
+eyes;	1
+face	7
+faces	1
+facility:	1
+fact	6
+facts	3
+faded	1
+failed	4
+failed.	1
+failing	1
+failure	1
+faint	2
+fainter	1
+faintly	1
+fair	4
+fair,	1
+fairly	2
+faith	1
+fall	3
+fallen	2
+fallen;	1
+falling	2
+falling,	1
+familiar	2
+families	1
+families,	1
+family.	1
+far	14
+fared	1
+farm	4
+farmer	1
+farther	2
+fast	16
+fast,	1
+fast.	1
+fasten	1
+fastenings	1
+fate	4
+fate.	1
+fateful	2
+favorable	2
+favoring	3
+fear	1
+fearful	3
+fearing	2
+feature,	1
+features	2
+federal	2
+fee	8
+feeling	1
+fees	2
+fees,	1
+fees.	1
+feet	20
+feet,	2
+fell	7
+fell.	1
+fell.”	1
+fellow	3
+fellows	1
+felt	3
+felt,	1
+few	28
+fields	2
+fields,	1
+fierce	5
+fiercely	2
+fifteen	4
+fifth	1
+fifty	5
+fighting	2
+figure	1
+figured	1
+figures	1
+file	1
+files	1
+fill	1
+filled	3
+filling	1
+finally	14
+finally,	1
+financial	1
+find	6
+finding	4
+fine	2
+fine,	1
+finger.	1
+fingers	1
+finished	1
+fire	3
+fireplace	1
+firmly	2
+firms	1
+first	20
+fish,	1
+fisher	1
+fisherman	1
+fisherman’s	1
+fishermen	1
+fishermen,	1
+fishermen.	1
+fishermen’s	1
+fishing	19
+fits	1
+fittings	1
+fittings,	1
+five	18
+fix	1
+fixed	1
+flags,	1
+flash	1
+flashed	2
+flashing	1
+fleck	1
+fleet	8
+fleet,	1
+fling	1
+float	4
+floated	5
+floated,	1
+floating	4
+flooded	1
+flooded,	1
+flooding	1
+floor	1
+flotsam	1
+flurries	1
+flying	3
+foam	6
+foam;	1
+fog	9
+fog,	2
+fogs	1
+folk	1
+follow	3
+follow,	1
+followed	4
+followed.	1
+following	17
+foolhardy	2
+foot	3
+footed	2
+foothold	2
+for	141
+for.	2
+force	12
+force,	3
+force.	1
+forced	9
+fore	1
+foremast	4
+forenoon,	1
+forever.	1
+forfeit	1
+forgot	1
+form	2
+form,	1
+form.	3
+format	4
+formats	1
+formed	2
+former	1
+forming	1
+forth	9
+fortunate	3
+forty	3
+forty-eight	2
+forty-two	1
+forty.	1
+forward	6
+forward,	1
+fought	1
+foul	1
+found	24
+found.	1
+foundered	1
+foundered,	1
+foundering	1
+four	28
+fourth	2
+fo’cas’tle,	1
+fragments	1
+fragments.	1
+frail	4
+frame	1
+frantic	1
+frantically	1
+fraught	1
+free	6
+freely	4
+freezing	5
+freight	4
+freighter	1
+frenzy	1
+frequent	3
+frequently	3
+fresh	1
+friend	1
+friend,	1
+friendly	1
+friends	2
+frigate	1
+frightened	1
+frightful	1
+from	215
+from,	1
+from.	1
+front	3
+frost	1
+frozen	8
+full	22
+fully	1
+furious	5
+furious;	1
+furiously.	1
+furl	1
+furl,	1
+furnishings	1
+furniture,	1
+further	10
+fury	13
+fury,	1
+fury.	1
+futile.	1
+future	3
+gafftopsail	1
+gaily	1
+gain	2
+gaining	1
+gale	36
+gale,	6
+gale-driven	2
+gale-swept	3
+gale.	6
+gale;	2
+gales	1
+galley,	1
+gang	3
+gathered	4
+gave	6
+gazed	1
+gear	3
+gear,	1
+general	2
+generally	4
+generations	1
+generations.	1
+gentle	1
+gently	1
+get	22
+get,	1
+getting	3
+giant	1
+girl	4
+girl.	1
+girl;	1
+give	7
+given	3
+giving	2
+glad	1
+glare	1
+glimmer	2
+glimpse	1
+glorious	1
+go	11
+go,	1
+goals	1
+goes	2
+going	10
+goin’	1
+gold	1
+golf	1
+gone	7
+good	12
+good,	2
+good-by	1
+goods.	1
+got	6
+gotten	2
+govern	1
+government	1
+government,	1
+grain	1
+grandly	1
+granite	2
+granted	1
+grasp	3
+grasp,	1
+grasp;	1
+grasping	3
+gratefully	1
+gravel	1
+graves	2
+great	48
+great,	1
+greatest	2
+green	1
+grew	6
+grip	2
+grip.	1
+gross	1
+ground	3
+ground,	1
+grounded	1
+grounds	2
+group	1
+growing	2
+grown	1
+guard	2
+guardsman	1
+guess	1
+guide	1
+guiding	1
+guilty	1
+guilty,	1
+gun	4
+gun,	1
+guns	3
+guns,	1
+guns.	1
+habitation;	1
+hack	1
+had	196
+had,	1
+had.	1
+haddock.	1
+hailed	1
+hailing	2
+half	18
+hammer	1
+hammer,	1
+hand	10
+hand,	1
+handed	1
+handle	2
+handling	3
+handling,	1
+hands	9
+hands”	1
+handy	1
+hanged,	1
+happened	4
+happened,	1
+happened.	1
+happy	2
+harbor	9
+harbor,	4
+harbor.	5
+harbor;	1
+hard	10
+hardly	3
+hardships	1
+hardy	1
+harmless	1
+has	18
+haste	2
+hatches,	1
+have	62
+haven	1
+having	6
+hawser	2
+hay	1
+hay,	1
+he	90
+head	5
+head,	1
+headed	4
+heading	3
+headlands	1
+headlines	1
+heads	3
+health,	1
+hear	4
+heard	9
+hearing	1
+hearin’	1
+heart	1
+heartbreaking	1
+hearts	1
+hearts.	1
+heaviest	1
+heavily	2
+heavy	4
+held	14
+helmsman.	1
+help	11
+help,	2
+help.	4
+helped	3
+helpless	6
+helpless,	1
+helpless;	1
+helplessly	3
+her	154
+her)	1
+her,	5
+her.	11
+here	3
+here,	1
+here.	1
+here.”	1
+herein	3
+heroes	1
+heroic	2
+heroism	1
+heroism,	1
+herself.	1
+hid	3
+hidden	1
+hiding	1
+high	14
+high,	1
+high.	2
+highest	1
+highly	1
+highway	3
+hill,	1
+hills	4
+him	17
+him,	3
+him.	5
+himself	10
+himself,	2
+himself.	1
+his	97
+history	4
+history.	1
+history;	1
+hits	1
+hoisting	2
+hold	15
+hold,	1
+hold.	1
+holder	1
+holder),	1
+holder,	1
+holder.	1
+holding	7
+hole	5
+hole,”	1
+holes	1
+hollow.	1
+hollows	2
+hollows,	1
+home	12
+home.	2
+home.”	2
+homecoming	1
+homes	2
+homeward	1
+honor,	1
+hook	1
+hooky,	2
+hope	11
+hoped	4
+hopes,	1
+hoping	8
+horizon,	1
+horizon.	1
+horror	4
+horror,	1
+horrors	1
+horse	1
+horses	7
+horses,	1
+horses;	1
+hospital	1
+hospitals.	1
+hot	1
+hotel	1
+hour	10
+hour.	2
+hours	9
+hours,	3
+hours.	1
+house	7
+house,	2
+house.	1
+household	1
+houses	4
+how	7
+how,	1
+however,	2
+howling	3
+https://www.pgdp.net	1
+huge	14
+hulk	1
+hulks	1
+hull	12
+hull,	5
+hull.	1
+hulls	1
+human	22
+humanity	1
+humiliated	1
+hundred	15
+hundreds	6
+hung	1
+hunt	1
+hunters	1
+hurled	7
+hurling	2
+hurricane	6
+hurried	15
+hurried.	1
+hurriedly	2
+hurry.”	3
+hurrying	1
+hushed	1
+hyperlinks,	1
+hypertext	1
+hyphenation,	1
+ice	2
+icy	2
+identification	1
+identified	1
+identify	1
+identify,	1
+idly	1
+if	19
+ill	3
+ill-fated	1
+illegal	1
+illustrations.	1
+immediate	5
+immediate.	1
+immediately	8
+impaled	1
+impassable	1
+imperilled	1
+implied	1
+important	2
+imposed	1
+impossible	3
+impossible.	4
+impressed	1
+impression,	1
+imprisoned	5
+imprisoned.	1
+imprisonment	2
+improbable._	1
+in	463
+in,	2
+inaccurate	1
+inch	4
+incidents	1
+inclined	1
+include	2
+included	2
+included.	1
+includes	1
+including	9
+incoming	1
+incomplete,	1
+increase	1
+increased	9
+increased,	1
+increased.	1
+increasing	11
+incredible.	1
+indeed.	3
+indemnify	1
+indicate	2
+indicated	1
+indicating	2
+indication	1
+indirectly	1
+individual	4
+induce	1
+inevitable.	1
+inflammable	1
+informant	1
+informant,	1
+information	5
+information,	1
+infringement,	1
+injured.	1
+injury.	1
+ink	1
+inky	1
+inland	1
+inlets.	1
+inner	1
+innocence	1
+inrushing	1
+insanity.	1
+inside	3
+inside,	1
+inside.	2
+inspected.	1
+installed	1
+instance	1
+instances	2
+instances,	1
+instant	2
+instantly	1
+instead	4
+instead,	1
+instructed	1
+instrumental	2
+intact.	1
+intellectual	2
+intelligence	1
+intended	1
+intense	1
+intercepting	2
+interest	3
+interest.	2
+interested	2
+interesting	2
+interesting,	1
+interpreted	1
+intimation	1
+into	87
+introduced	1
+invalidity	1
+investigation	2
+investigation.	1
+investigators	1
+investment	1
+investors	1
+involved	1
+iron	12
+iron,	1
+ironed,	1
+irons.	2
+irony	2
+is	77
+is,	3
+is.	2
+issued.	1
+it	137
+it,	4
+it,”	1
+it.	3
+it;	2
+item	1
+its	21
+itself	1
+jagged	1
+jaws	1
+jetsam	1
+jog	1
+jogging	1
+join	1
+joined	1
+joined,	1
+jollyboat	1
+journey	1
+joy	1
+joyous	1
+jumble	1
+jumbled	1
+jump	3
+jumped	2
+jury	1
+just	9
+justice	1
+jute	1
+jutting,	1
+keel	2
+keel,	1
+keels	1
+keep	6
+keeper	1
+keeper,	2
+keeping	2
+kept	8
+kicking	1
+killed	1
+killing	1
+killing.	2
+kin	1
+kind	2
+kindled	2
+kindlings,	1
+kinds	2
+king	1
+kiss	1
+kissed	1
+kitchen,	1
+kitchen.	1
+knew	7
+knives,	1
+know	8
+know.	1
+knowing	2
+knowledge	1
+known	7
+known,	1
+labored	1
+lack	1
+lad	1
+laden	4
+laid	1
+lamps,	1
+land	9
+land,	2
+land.	1
+landed	7
+landed,	1
+language	1
+lapped	1
+lapping	1
+large	11
+largest	2
+lashed	5
+lashing	1
+last	16
+late	4
+late,	1
+late.	1
+later	11
+laths	3
+laths,	1
+latter	1
+latter,	1
+launch	6
+launched	4
+launched,	1
+launched.	1
+law	6
+law,	1
+law-breakers,	1
+law.	2
+laws	9
+laws.	1
+lawyers	1
+lay	15
+lead	1
+leading	2
+leak	2
+leaking	1
+leap	1
+learn	3
+learned	2
+least	4
+leave	5
+leaving	3
+ledge	1
+lee	2
+left	19
+legal	2
+legally	1
+legible.	1
+lend	1
+length,	1
+length;	1
+less	5
+lesser	1
+level	1
+level.	1
+liability	1
+liability,	1
+liberally	1
+liberty	1
+library	1
+license	2
+license,	3
+licensed	1
+lie	2
+lies	2
+lieu	2
+life	24
+life,	2
+life-savers,	1
+life-saving	1
+life.	4
+lift	1
+lift.	1
+lifted	1
+light	6
+lightening	1
+lighters	1
+lighters.	1
+lighthouse	3
+lighthouse,	1
+lightkeeper	1
+lights	3
+lights,	1
+lightship,	1
+like	14
+likely	1
+limbs.	1
+limitation	3
+limited	2
+limits	1
+line	16
+line,	1
+line;	1
+lined	1
+liner	1
+liners,	1
+lines	5
+lingered	1
+linked	1
+links	3
+links.	1
+list	5
+listen;	1
+lit	1
+littered	1
+little	29
+live	2
+lived	2
+lively	1
+lives	10
+lives,	3
+lives.	1
+lives;	1
+living	2
+load	7
+loaded.	1
+lobster	3
+locality	4
+locate	1
+located	7
+location	3
+locations	1
+locked	3
+locking	1
+logs	4
+logs,	1
+lone	1
+lonely	1
+long	25
+long,	2
+longer	3
+longer,	1
+longer.	1
+looked	2
+looking	2
+loomed	1
+loose	2
+loosened	1
+lore	1
+lose	2
+loss	15
+lost	15
+lost,	3
+lost.	1
+lost.”	1
+lot	2
+loud	1
+loved	2
+low	2
+low,	1
+low-set	1
+lower	2
+lowered	4
+lumber	8
+lumber,	3
+lunch	3
+lusty	1
+lying	2
+machine-readable	1
+machinery	1
+mad	8
+made	45
+made.	1
+madly	2
+maelstrom	1
+maidens	1
+main	8
+mainmast	1
+maintaining	1
+majestic	1
+make	14
+makes	1
+making	7
+man	28
+man,	4
+man-of-war	1
+man.	2
+managed	9
+manager	3
+managing	1
+manned	2
+many	39
+many,	1
+marched	1
+marching	1
+marine	4
+mariners	1
+mark	2
+mark.	1
+marked	3
+marks	1
+mass	8
+masses	1
+mast	4
+masted	7
+master	2
+masters	3
+masters,	3
+masters.	2
+masts	6
+mate	10
+mate,	3
+material	4
+mates	1
+mate’s	1
+mats	1
+mats;	1
+matter	4
+maximum	1
+may	22
+me	4
+me,	3
+meadow	1
+meadows	1
+meal.	1
+meals	1
+mean	1
+meanest	1
+means	11
+means,	1
+meantime	4
+medium	3
+medium,	2
+meet	2
+member	6
+members	12
+memory	2
+men	85
+men,	11
+men,”	1
+men.	7
+men;	1
+menace	1
+mental	1
+merchant	1
+merchants	1
+message	1
+message:	1
+messages	2
+met	1
+method	2
+methods	2
+mid-afternoon	1
+mid-forenoon	1
+middle	2
+middle,	1
+middle-aged	1
+midnight	5
+midnight,	1
+midnight;	1
+midway	1
+might	22
+might.	1
+mighty	1
+mile	12
+miles	34
+million	1
+mind,	1
+minds	1
+mingled	1
+minutes	2
+minutes,	2
+minutes.	1
+miraculous	1
+miscarriage	1
+mishap	2
+mishap.	1
+missing	2
+missing.	1
+mission	3
+mist	3
+mist.	1
+mistaken	1
+mists	4
+mixed	2
+mizzen	1
+mizzenmast	1
+mizzenmast.	1
+moaning	1
+moderate	1
+moderate,	1
+moderated	1
+moderating	2
+modern	2
+modification,	1
+modified	1
+moment	16
+moment,	2
+moment.	3
+momentary	2
+momentum	1
+money	8
+monstrous	3
+month	1
+months	1
+moors	1
+more	38
+more.	4
+morning	22
+morning,	3
+morning.	2
+mornings.	1
+mortal	1
+mortar	6
+most	12
+mother	1
+motherly	1
+mount	1
+mountain-like	1
+mountainous	1
+mountains	1
+mounted	1
+movable	3
+move	2
+move.	1
+moved	4
+moved.	1
+movements	1
+moving	2
+much	17
+murder	2
+murdered	3
+murders	5
+murders,	1
+murders.	2
+must	17
+must,	1
+mute	1
+my	14
+myself	3
+mysteries	1
+mysteries,	1
+mysterious	3
+mystery	5
+mystery,	1
+name	10
+name,	1
+name.	1
+named	5
+names	4
+nasty	1
+nation	1
+nature	2
+navigated	1
+navigation	1
+navigation,	1
+near	11
+nearby	3
+neared	1
+nearer	12
+nearest	3
+nearing	3
+nearly	10
+necessarily	1
+necessary	6
+necessity,	1
+necks	1
+need	1
+needed	2
+neighboring	1
+neighbors	1
+neither	1
+nephew.	1
+nervous	1
+nestling	1
+nets	1
+network	1
+never	13
+new	5
+news	2
+newsletter	1
+next	20
+nice	1
+night	32
+night,	2
+night.	3
+nightly	1
+nine	2
+no	61
+non-profit	1
+none	1
+nonproprietary	1
+nonsense,	1
+noon	3
+noontime	1
+nor	2
+north	8
+northeast	10
+northerly	1
+northern	1
+northwest	3
+northwest,	1
+not	96
+not,	1
+note	2
+nothing	4
+notice	2
+notified.	1
+notifies	1
+now	13
+now,	3
+nude	1
+nuff	1
+number	7
+number,	1
+numbers	1
+nuts	2
+oar	2
+oar,	1
+oar.	1
+oars	5
+oars,	2
+oars.	1
+oars;	1
+oath	1
+object	3
+objects	1
+obliged	2
+obscured	1
+observation	3
+observation,	1
+observe	1
+observer	1
+obsolete,	1
+obtain	8
+obtained	1
+obtaining	2
+obvious,	1
+occasional	1
+occur:	1
+occurred	4
+occurred.	2
+occurs,	1
+ocean	12
+ocean,	1
+ocean-going	1
+ocean;	1
+ocean’s	1
+of	1165
+off	35
+off,	1
+off.	4
+offer	3
+offered	1
+offers	1
+office	2
+office,	1
+officers	16
+offices	1
+official	4
+often	9
+oil	1
+old	6
+old,	2
+ominous	1
+on	283
+on,	3
+on-rushing	1
+on.	1
+once	7
+oncoming	3
+one	65
+one-fourth	1
+one.	1
+ones,	1
+one—the	1
+online	4
+only	58
+only.	1
+onrushing	2
+onsweeping	1
+onto	2
+onward	6
+open	3
+opened	3
+opening	1
+openings,	1
+operate	1
+operated	2
+operating	3
+operations	1
+operator	1
+opinion	1
+opportunities	1
+opportunity	1
+opportunity.	1
+opposite	7
+or	111
+order	4
+ordered	1
+orders	1
+ordinary	1
+organized	1
+original	2
+originally	1
+originator	1
+other	41
+others	10
+others,	1
+others.	1
+otherwise	2
+our	21
+out	56
+out,	2
+out;	1
+outdated	1
+outer	11
+outlines	3
+outlying	9
+outside	8
+over	68
+over,	3
+overboard	2
+overboard,	1
+overboard,”	1
+overcast	1
+overcome	2
+overloaded	2
+overlooking	1
+overpowering	1
+overseer	1
+overtake	2
+overtook	2
+overtopping	1
+overturned	5
+overturned,	2
+overwhelm	1
+overwhelmed	3
+owed	1
+owing	3
+own	2
+owned	2
+owner	3
+owner,	1
+owner.	1
+owners	1
+owners,	1
+owns	2
+ox;	1
+o’clock	10
+o’clock.”	1
+o’er	1
+pace.	1
+page	3
+pages	1
+paid	6
+pail	1
+pails	3
+painted	2
+painter	1
+pair	1
+pane	1
+panic	2
+paper	2
+papers,	1
+paperwork	1
+paragraph	10
+paragraphs	4
+paralyzing	1
+pardon	1
+pardon,	1
+parole,	1
+part	19
+partake	1
+partial	1
+particular	2
+particular.	1
+particularly	2
+parties	1
+partly	1
+parts	6
+party	3
+pass	2
+passed	11
+passed,	1
+passenger	4
+passengers	7
+passing	5
+past	1
+path,	1
+pathetic	1
+patrol	5
+patrolled	3
+patrolling	2
+patrolman	1
+patrolmen	2
+pay	2
+paying	3
+payments	3
+people	5
+people,	1
+perform,	1
+performances	1
+performed,	1
+performing,	3
+perhaps	1
+perilous	1
+period	1
+periodic	1
+perish	2
+perish.”	1
+perished	2
+perished,	1
+perished.	2
+permanent	1
+permission	6
+permit.	1
+permitted	2
+permitting	1
+person	8
+person,	1
+personal	3
+persons	4
+persons.	2
+phrase	4
+physical	2
+physician	2
+pick	6
+picked	2
+picture	1
+pictures	1
+piece	11
+piecemeal.”	1
+pieces	9
+pieces,	3
+pieces.	3
+pier	3
+piercing.	1
+piercing;	1
+pig	1
+piled	3
+piling	1
+pistol,	1
+pitching	4
+piteously,	1
+place	12
+place,	1
+placed	8
+places	1
+placing	2
+plain	1
+plank	1
+planks	1
+planned	1
+play	1
+played	1
+playhouse	1
+playing	1
+playmate	1
+plaything	1
+pleading	1
+pleadings	1
+please	2
+ploughed	1
+plunge	3
+plunged	3
+poem	1
+point	13
+point,	2
+points	3
+pond	2
+pontoons	3
+poor	5
+porker.	1
+port	10
+port,	2
+portion	5
+portions	6
+ports	1
+position	6
+position,	1
+positioned	1
+positions	1
+possessed	1
+possession	1
+possession.	1
+possibility	2
+possible	26
+possible,	2
+possibly	3
+posted	5
+posts.	1
+pots	1
+pots,	1
+pound	2
+pounded	6
+pounding	4
+pounds	3
+pounds,	1
+pounds.	1
+pour	1
+poured	5
+pouring	1
+power	10
+powerful	4
+powerful,	1
+powerless	1
+powers	1
+practicable	1
+practical	1
+practically	4
+practice	1
+preceded	1
+predominant	1
+preeminently,	1
+preface	1
+preface.	1
+preference	1
+preparation	1
+preparations	1
+prepare	1
+prepare)	1
+preparing	1
+present	2
+presented	2
+preserve	1
+preservers	1
+pretty	2
+prevailed	2
+prevailed,	2
+prevent	3
+previous	5
+previously	2
+primarily	1
+print	1
+printed	2
+prisoner,	1
+private	1
+privilege	1
+probability	1
+probable	3
+probably	4
+problem	1
+problem.	2
+proceed	2
+proceed.	1
+proceeded	2
+proceeding	1
+process	1
+processing	1
+produce	1
+produced	1
+production,	1
+profits	1
+progress	4
+progress.	1
+progress;	1
+prohibition	1
+projecting	3
+prolong	1
+prolonged	1
+prominent	3
+prominently	4
+promised	1
+promoting	2
+promotion	1
+prompt	1
+promptly	8
+proofread	1
+propelled	1
+propeller	1
+proper	2
+property	4
+proposition	1
+proposition.	1
+proprietary	1
+protect	2
+protected	5
+protection.	1
+protest	1
+protested	1
+protracted	1
+protruding	3
+proud	1
+proved	3
+provide	6
+provide,	1
+provided	5
+providing	4
+provision	1
+provisions.	1
+public	3
+publication:	1
+pull	11
+pulled	12
+pulling	3
+pulls	1
+pulsing	1
+pumping	2
+pumps	2
+punishment.	1
+purchased	2
+purpose	6
+purposes,	1
+purser’s	1
+pursued	1
+push	1
+pushed	5
+put	6
+putty	1
+quantities	1
+quart	1
+quarter	1
+quarter,	1
+quarts,	1
+question	3
+quick	2
+quickly	13
+quiet	2
+quite	10
+quotation	1
+quotations.	1
+racing	1
+radio	1
+raged	1
+ragged	2
+raging	8
+rail	3
+rails	1
+raise	4
+raising	1
+ran	8
+rapid	3
+rapidly	10
+rather	3
+rats	1
+rays	1
+re-enter	1
+re-named	1
+re-use	2
+reach	18
+reach,	1
+reached	25
+reached;	1
+reaching	3
+read	3
+read,	1
+readable	1
+reader.	1
+readily	1
+reading	1
+ready	11
+ready,	1
+real	1
+realize	2
+realized	3
+realizing	1
+reared	1
+reason	2
+reasonable	2
+reasons	1
+reassured,	1
+rebuilt	1
+recalls	1
+receipt	2
+receive	3
+received	8
+receiving	2
+recent	2
+recently	2
+receptacle	1
+reckoning	1
+recognize	1
+recognized	2
+recognizing	1
+recollection	1
+recommend	1
+reconditioned	1
+record	4
+recover	3
+recovered	6
+recovered,	3
+recovered.	2
+recovering	1
+redistribute	1
+redistributing	1
+redistribution.	1
+reef	1
+reef.	1
+reefed	1
+reels.	1
+references	3
+refuge	1
+refund	6
+refund.	2
+refused	2
+regain	3
+regard	1
+registered	2
+regular	1
+regulating	1
+reigned	1
+reimburse	1
+relatives,	1
+relax	1
+released	1
+relentless	2
+relief.	1
+remain	1
+remain,	1
+remainder	1
+remained	9
+remaining	2
+remains	2
+remedied	1
+remind	1
+remorseless	1
+remote	1
+remove	2
+removed	4
+removed.	2
+removing	1
+renamed.	1
+rended	2
+render	2
+rendezvous	1
+renewed	1
+reopen	1
+repair	1
+repeated	1
+replace	1
+replacement	3
+replied	1
+reply.	1
+report	1
+reported	5
+reports	2
+reports,	1
+reposed.	1
+representations	1
+request,	1
+requested	1
+require	1
+required	5
+requirements	3
+requirements,	1
+requirements.	1
+rescue	9
+rescue.	3
+rescued	6
+rescued,	1
+rescued.	1
+rescuers	2
+rescuing	1
+research	1
+research.	1
+respected	2
+respected,	1
+response	2
+response.	1
+responsible	1
+responsive	1
+rest	1
+restaurant	2
+restaurant.	1
+restless	3
+restoratives	1
+restrictions	2
+rests	1
+result	1
+resulted	4
+retain	1
+retained	1
+retired	1
+return	8
+return.	2
+returned	2
+returning	3
+returns.	1
+revive	1
+revolver	1
+revolving	1
+rhythmic	1
+rid	1
+ridges,	1
+riding	1
+rift	1
+rig	1
+rigged	6
+rigging	13
+rigging,	3
+rigging.	1
+right	8
+right,	1
+right;	1
+righted	1
+righting	1
+riot	2
+ripple	1
+ripple,	1
+ripples	1
+rips.	1
+rising	9
+road	1
+roads	1
+roadstead	1
+roar	3
+roaring	1
+rock	1
+rock,	2
+rock.”	2
+rock?”	1
+rocking	2
+rocks	4
+rocky	1
+rode	1
+roll	5
+rolled	2
+rolling	4
+romance	1
+romance,	1
+romances	1
+romantic	2
+roof	1
+room	8
+room,	2
+room;	2
+rooms	2
+rope	3
+rope,	1
+rope;	1
+ropes.	1
+rose	7
+rotting	1
+rough	4
+rough,	1
+rough.	1
+round	3
+rounded	1
+rowed	3
+rowing	1
+royalties	2
+royalties.	1
+royalty	1
+rubber	1
+rudder	1
+ruined	1
+rule	2
+rules,	1
+rum	2
+run	1
+run,	1
+runners	1
+runners,	1
+running	6
+running.	1
+rush	3
+rushed	11
+rushing	8
+rust	1
+s/he	1
+sacrifice	1
+sad	5
+safe	5
+safe.	1
+safely	4
+safely.	2
+safely;	1
+safety	2
+safety.	2
+said	9
+said,	3
+sail	12
+sail,	2
+sail.	2
+sailed	15
+sailed.	1
+sailing	4
+sailor	7
+sailor,	1
+sailors	13
+sailors,	3
+sailors.	1
+sails	8
+sails,	2
+salt	4
+salvage	1
+salvaging	1
+same	6
+sand	29
+sand-swept	1
+sand.	1
+sands	16
+sands.	1
+sandy	3
+sang	1
+sank	3
+sat	2
+sat,	1
+satisfactorily	1
+satisfactory	1
+savage	3
+save	4
+saved,	2
+saved.	3
+savers	3
+saving	3
+saw	15
+saw,	2
+scanned	1
+scatter	1
+scattered	6
+scattering	2
+scene	10
+scene,	2
+scene.	3
+schooner	17
+schooner,	3
+schooners	4
+schooners,	1
+scored	1
+scrambled	1
+scrapheap.	1
+scratched	1
+scream,	1
+screams	2
+scroll	1
+sea	116
+sea,	22
+sea--the	1
+sea-swept	2
+sea-washed	2
+sea.	26
+sea.]	1
+sea;	6
+seaboard.	1
+seafaring	1
+sealed	1
+seaman	2
+seamen.	1
+search	3
+searching	1
+seas	18
+seas,	3
+seas.	1
+season	2
+seat	1
+sea’s	1
+second	11
+secret	1
+section	2
+secure	3
+secured	3
+securely	1
+see	14
+see.	1
+seeing	4
+seem	1
+seemed	7
+seems	2
+seen	23
+seen,	1
+seething	2
+seize	2
+seized	4
+select	1
+selected	1
+selecting	1
+send	5
+sending	1
+sensational	1
+sense	1
+senses.	1
+sent	26
+sentence	1
+sentence,	1
+sentenced	1
+sentinels	1
+separated	1
+serious	2
+seriously	1
+seriousness	1
+serve	1
+service	5
+service,	1
+set	11
+set,	1
+settled	3
+seven	3
+seventh	1
+several	15
+severe	3
+sewed	1
+shadow	1
+shall	2
+shallows	1
+shape	1
+share	2
+share.	1
+shared	1
+sharing	1
+sharp	4
+sharply	1
+she	57
+she,	1
+shed	1
+sheet	2
+sheets	1
+shell	1
+shelter,	1
+shelter.	1
+sheltered	1
+sheltering	1
+shelving	1
+shielding	1
+shifting	3
+shines	1
+shining	1
+ship	75
+ship,	18
+ship.	7
+ship;	2
+shipmates	2
+shipmates;	1
+shipped	1
+ships	16
+ships,	1
+ships.	2
+ships;	1
+shipwreck	7
+shipwrecks	3
+shipwrecks,	2
+shipwrecks?”	1
+ship’s	22
+shoal	2
+shoals	7
+shock	2
+shone	2
+shoot	1
+shore	41
+shore,	17
+shore.	23
+shore;	2
+shores	6
+shoreward	4
+shoreward;	1
+short	19
+shot	8
+shots	1
+should	10
+shout	1
+shouted,	2
+shouts	1
+shoved	1
+shovels	1
+showed	1
+showing	1
+shown	1
+shreds	1
+shut	2
+side	13
+side,	3
+side.	1
+sides	9
+sides.	1
+sifted	2
+sight	6
+sight.	1
+sighted	3
+sighted.	1
+sign	1
+signal	3
+signalled	1
+signalled,	1
+signals	5
+signals.	1
+signs	1
+silent	1
+silver	1
+since	3
+sinecure,	1
+single	4
+sink	1
+sink,	1
+sinking	2
+sinks	1
+sit	1
+site	1
+situation	2
+situation,	1
+situation.	3
+six	10
+sixteen	5
+sixty	1
+size	1
+size,	1
+sized	2
+skidded	1
+skies	1
+skiff	3
+skilled	1
+skillful	1
+skin,	1
+sky	1
+skyward	1
+slatted	1
+slaughter.	1
+sleet,	1
+slept	1
+slight	3
+slightest	1
+slipped	1
+slippery	1
+sloop	3
+sloops,	1
+slope	1
+slow	2
+slowly	4
+slowly,	1
+small	12
+smaller	1
+smashed	9
+smashing	2
+smelled	1
+smiling	1
+smoke	1
+smooth	7
+smooth.	1
+smoothly	1
+smother	1
+smothered	1
+snapped	3
+snatched	1
+snow	16
+snow,	4
+snow.	1
+snugly	1
+so	56
+so,	3
+so.	1
+soap	1
+soft	1
+sold	1
+solemn	1
+solicit	2
+solicitation	1
+solid	1
+solution	1
+some	49
+someone	1
+something	3
+sometimes	1
+somewhat	6
+somewhere	1
+son	1
+son.	1
+son;	1
+soon	30
+sooner	1
+sought	1
+soul	1
+souls	1
+south	9
+southeast	2
+southern	2
+souvenirs;	1
+space	1
+spar	3
+sparkled	1
+sparless	1
+spars	4
+spars;	1
+speak	1
+speak.	2
+specified	2
+spectator	1
+speculation	1
+sped	2
+sped,	1
+sped.	1
+speed	2
+speed,	1
+speedily	2
+speedy	2
+spelling	1
+spellings	1
+spent	2
+spine	1
+spits,	1
+splashed	1
+splendor	1
+split	1
+spoken	2
+spot	3
+sprang	2
+spray	1
+spread	5
+spring	1
+spring,	1
+spume,	1
+squalls.	1
+stable	5
+stack	1
+stack.	1
+staff.	1
+staggered	1
+stairs	3
+stairs.	1
+stalks	1
+stand	9
+standardizing	1
+standing	3
+standing;	1
+stands	2
+starboard	1
+starlit	1
+start	1
+started	6
+starting	1
+startled	1
+state	7
+state,	1
+stately	1
+statement	1
+statements	1
+stateroom	1
+staterooms	1
+states	4
+state’s	1
+station	13
+station,	3
+station.	4
+station.”	1
+stationed	1
+stations	5
+stations,	1
+stations.	1
+status	4
+staunch	2
+stay	1
+staying	1
+steadily	2
+steady	1
+steam	4
+steamed	4
+steamer	1
+steamer,	2
+steamers	1
+steamer’s	2
+steaming	2
+steamship	1
+steel,	1
+steer;	1
+steering	5
+stem	3
+step,	1
+stepped	1
+stern	6
+stern,	1
+stern.	2
+sticks	1
+still	16
+stirred	1
+stolen.	1
+stone	1
+stood	7
+stop	1
+stopped	1
+store	1
+stored	1
+stored,	1
+stories	2
+storm	34
+storm,	4
+storm-borne	1
+storm-swept	1
+storm-washed	1
+storm.	5
+storms	5
+storms.	2
+stormy	1
+stormy,	1
+story	9
+story,	6
+story.	1
+stove	1
+straight	3
+strain	1
+strained	1
+straining	1
+stranded	14
+stranded,	1
+stranded.	2
+stranding	1
+strange	5
+strangely.	1
+straw	1
+street	1
+strength	4
+strength,	1
+strenuous	2
+stretches	2
+strewn	2
+stricken	1
+stricken,	1
+strict	1
+striking	1
+string	1
+strings	1
+strip	1
+stripped	1
+stripping	1
+strips	2
+strokes	1
+strong	16
+strong,	1
+stronger	1
+strongest	1
+struck	16
+struggle	4
+struggle,	2
+struggled	3
+struggled,	1
+struggles	1
+struggling	2
+stuck	1
+student	1
+stuff,	1
+stump	1
+subject	1
+submarine	6
+submarine,	1
+submarine.	1
+submarine;	1
+submarines	3
+submarines,	1
+submerged	4
+subscribe	1
+subscribers.	1
+subsided	1
+succeed	1
+succeeded	7
+success,	1
+successful	2
+successfully	2
+such	21
+sudden	2
+suddenly	7
+suddenly,	2
+suds	1
+suffering	3
+suffering,	2
+sufficed	1
+sufficiently	1
+suffocation.	1
+sugar	5
+suicide.	1
+suicides	1
+suit	1
+suitable	1
+sumac,	2
+summer	5
+summer,	1
+summoned	1
+sun	6
+sunken	6
+sunlight,	1
+sunlight;	1
+sunrise;	1
+sunset,	1
+superhuman	1
+superstructure	1
+supplied	1
+supplies	1
+supply	1
+supply,	1
+support	5
+support.	1
+supposed	1
+supposing	1
+surely	6
+surely.	1
+surf	25
+surf,	4
+surf-washed	1
+surf.	6
+surface	7
+surface,	3
+surface.	6
+surfboat.	1
+surfman	2
+surfmen	5
+surfmen,	1
+surging	3
+surprise	2
+surprised	1
+surprised.	1
+surrounding	3
+survive	2
+survived	1
+surviving	1
+suspicion,	1
+suspicious	1
+su’thin	1
+swallowed	4
+swam	1
+swamp	1
+swamped	2
+sweep	2
+sweeping	7
+sweeps	1
+swell	1
+swept	46
+swim	2
+swimmer	1
+swimmer,	1
+swimmers,	1
+swing	1
+swinging,	1
+swirl	1
+swirled	1
+swirling	1
+swish,”	1
+swung	4
+synonymous	1
+table	2
+table,	2
+table--and	1
+tack	2
+take	9
+taken	10
+takes	2
+taking	5
+tale	2
+tale.	1
+tales,”	1
+talked	1
+tangled	3
+tapped	2
+tapped,	1
+tapping	4
+tarry	1
+task	1
+tattered	1
+taught	1
+tax	6
+taxes.	1
+teams	1
+tearing	5
+telegraph	5
+telephone	2
+telephone,	1
+telephoned	1
+telescope	1
+telescope,	1
+tell	7
+telling	2
+tells	1
+temperature	2
+tempest	1
+temporary	3
+ten	5
+terms	20
+terrible	20
+terribly	1
+terrific	9
+terrorizing	1
+test	1
+testified	1
+testing	3
+texts	1
+than	31
+thar	2
+thar?	1
+that	266
+that,	3
+that:	1
+the	2635
+their	81
+them	42
+them,	8
+them.	13
+them.”	1
+them;	3
+themselves	4
+then	37
+then,	2
+then.	1
+theory	1
+there	50
+there,	1
+there.	2
+thereafter,	2
+these	33
+they	96
+they,	1
+thick	6
+thick,	1
+thickening	1
+thing	4
+things	5
+think	1
+thinking	2
+third	1
+thirteen	3
+thirty-mile	1
+thirty-one	1
+thirty-three	1
+this	151
+this,	2
+thoroughly	2
+those	39
+though	14
+thought	3
+thoughts	1
+thousand	1
+thousands	2
+thrashed	1
+thrashing	3
+threatened	2
+threatening,	2
+three	27
+three-room	1
+threshold	1
+threw	4
+thrill	1
+through	45
+throw	1
+throwing	3
+thrown	10
+thunder	1
+thundered	3
+thunderous	1
+thus	2
+thwart	1
+tide	10
+tide,	2
+tide-ruffled	1
+tide.	1
+tides	2
+tidings	1
+tied	1
+tiller	2
+tiller.	1
+timbers	12
+timbers,	1
+time	30
+time)	1
+time,	2
+time.	2
+times	4
+times,	1
+times.	1
+tin	1
+tiny	1
+tip	1
+to	677
+to,	5
+today	1
+today,	3
+toes	1
+toes.	1
+together	5
+toiling	1
+told	9
+told,	1
+toll	1
+tombstones	1
+ton	1
+ton.	1
+tons	5
+tons,	2
+tons.	1
+too	11
+too,	1
+took	8
+top	7
+toppled	1
+topsails,	1
+torch	1
+tore	9
+torn	10
+torrent	4
+torrents	6
+torture	1
+tossing	1
+tot	1
+total	3
+totally	1
+touch	2
+touched	3
+tow	9
+tow.	1
+toward	2
+towards	27
+towed	3
+tower	3
+tower,	1
+towering	5
+towing	3
+town	4
+town,	1
+towns	1
+trace	1
+trace.	1
+trade	2
+trade.	1
+trademark	5
+trademark,	3
+trademark.	4
+tradition	1
+tragedies	2
+tragedies.	1
+tragedy	7
+tragedy.	1
+train	2
+transcribe	1
+transcription	1
+transfer	1
+transmitted	1
+transportation	3
+transportation,	1
+trap	1
+traps.	1
+treacherous	1
+treacherous,	1
+treatment	1
+trial	3
+tried,	1
+trip	8
+trip,	2
+trip.	1
+trips	1
+trips,	1
+trouble	1
+troubled	1
+trough	2
+truck	1
+trucks	2
+true	3
+try	6
+trying	6
+tug	18
+tug,	1
+tug.	2
+tugs	3
+tugs,	1
+tug’s	1
+tumbling	1
+turbulent	3
+turn	4
+turned	8
+turning	1
+twelve	2
+twenty	3
+twenty-five	2
+twenty-four	2
+twenty-three	1
+twice	1
+twisted	3
+two	43
+two-thirds	1
+type	4
+type.	1
+types	1
+typographical	1
+unable	3
+unavoidably	1
+unbalanced	1
+unbalanced.	1
+unceasingly	2
+uncivilized	1
+unclaimed,	1
+uncle	1
+uncle,	1
+uncle?	1
+uncontrolled	1
+under	27
+under-sea	3
+undermined,	1
+understand	1
+understand,	2
+understanding	1
+understood	2
+undertaking	1
+undertaking,	1
+undertow	2
+unenforceability	1
+unequalled	1
+uneventful	1
+unfolded	1
+unfortunate	9
+unfortunate,	1
+ungainly	1
+uniform	1
+unison.	1
+united	1
+unlash	1
+unless	4
+unlink	1
+unloading	1
+unmerited	1
+unmistakable	1
+unmoved	1
+unnerved	1
+unnoticed	1
+unprotected	1
+unruffled	1
+unsafe	1
+unselfish	1
+unskilled	1
+unsolicited	1
+unsolved	2
+unsolved.	2
+unsung.	1
+until	31
+untimely	3
+unusual	3
+unwieldy	1
+up	68
+up,	8
+up.	3
+upon	39
+upper	1
+upset	1
+urged	2
+us	15
+us,	1
+us.	1
+us.”	1
+use	18
+use;	1
+used	8
+uselessness	1
+user	2
+user,	1
+using	6
+usual	1
+utter	1
+utterly	2
+valley	1
+valleys	1
+valuable	2
+value	2
+valued	1
+variety	1
+various	1
+velocity	1
+velocity,	1
+venture	1
+verdict	1
+verse,	1
+verses,	1
+version	1
+versions	1
+very	19
+vessel	47
+vessel,	10
+vessel.	7
+vessel;	2
+vessels	8
+vessels,	2
+vessel’s	4
+vest	1
+via	1
+vicinity	7
+vicious	1
+victim,	1
+victims	2
+view	1
+view,	1
+viewed,	1
+viewing,	1
+vigilance	1
+village	3
+village,	1
+vindicate	1
+violates	1
+violence	2
+violence,	1
+virus,	1
+visible	2
+visit	4
+visit:	1
+visited	1
+visitors.	1
+vividly	1
+void	1
+volume	1
+volunteer	2
+volunteers	4
+voyage	6
+voyage,	1
+voyage.	6
+voyages	2
+voyages.	1
+voyaging	1
+wafted	1
+wagon	1
+waif	2
+waiting	2
+walk	1
+walked	2
+walks	1
+wallowing	1
+walls	1
+waning	1
+want	1
+wanted	2
+warfare	1
+warm.	1
+warned	1
+warning	1
+warranties	1
+warship	1
+warships	1
+was	407
+wash	1
+washed	12
+washing	1
+watch	4
+watch,	1
+watched	3
+watched.	1
+watcher	1
+watchers	2
+watchers,	1
+watches	1
+watchful	1
+watching	1
+water	21
+water,	5
+water-soaked	1
+water.	3
+waters	27
+waters,	5
+waters.	4
+watertight	1
+wave	12
+wave,	5
+wave-swept	1
+waved	1
+wavelets	1
+waves	20
+waves,	3
+waves.	2
+way	15
+ways	2
+we	53
+weaker.	1
+weapon	1
+wearers	1
+weather	5
+weather,	3
+weather;	1
+weave	1
+web	1
+website	4
+week	1
+weeks	3
+weeks.	2
+weighed	2
+weight	1
+weighted	2
+welcome	1
+well	9
+well-to-do	1
+went	27
+were	213
+were,	3
+west	2
+western	2
+we’ll	1
+we’re	1
+whale	1
+whar	2
+wharf	3
+what	14
+what,	1
+whatever	1
+whatsoever.	2
+wheel	2
+wheel,	1
+wheel.	1
+wheels,	1
+when	72
+when,	2
+whenever	1
+where	49
+wherever	1
+whether	4
+which	113
+while	12
+whistle	1
+whistle,	1
+whistles,	1
+white	7
+white-capped	3
+whitened	1
+who	37
+whole	7
+wholly	1
+whom	4
+whose	8
+why	2
+why,	1
+wicked	1
+wide	3
+widespread	2
+widest	2
+wife	7
+wife.”	1
+wild	13
+wild,	1
+wilder	1
+wildly	3
+will	13
+willing	3
+wind	23
+wind,	4
+wind-driven	1
+wind.	2
+window	2
+winds	5
+wind’ard.	1
+wine	1
+winter	4
+winter,	2
+winter’s	1
+wireless	1
+wireless,	1
+wires	1
+wish	1
+wished	1
+with	215
+withdrawn	1
+within	8
+without	22
+withstand	1
+wives	1
+woman	1
+womanhood.	1
+woman’s	1
+women	1
+wonder	1
+wonderful	1
+wonderingly	1
+wondrous	1
+won’t	2
+wood	1
+wood.	1
+word	3
+words	1
+words,	1
+work	46
+work,	8
+work.	5
+workmen	2
+workout,	1
+works	24
+works,	5
+works.	4
+world	8
+world,	1
+world.	2
+worn	2
+worried.	1
+worse	1
+worse,	1
+worse.	1
+worst	5
+worst;	1
+worth	2
+would	44
+wouldn’t	1
+wreck	16
+wreck,	4
+wreck.	9
+wreck:	1
+wreck;	1
+wreckage	8
+wreckage,	5
+wreckage.	2
+wrecked	3
+wrecked,	1
+wreckers	1
+wrecks	2
+wrenched	1
+wrenching	1
+wretched	3
+writ	1
+write	2
+write,	1
+writer	3
+writers	1
+writing	3
+written	6
+wrong	1
+wrong.	1
+wrote	1
+www.gutenberg.org.	4
+www.gutenberg.org/contact	1
+www.gutenberg.org/donate.	2
+www.gutenberg.org/license.	1
+x(	1
+yards	8
+ye	1
+year	6
+year,	2
+years	14
+years,	3
+years.	2
+year’s	1
+yer	1
+yesterday.	1
+yet	3
+yielded	1
+yielding	1
+yonder	1
+you	69
+you!)	1
+you.”	1
+young	4
+your	11
+zenith	1
+zero.	1
+zigzag	1
+‘AS-IS’,	1
+’count	1
+’tis	1
+’ve	1
+“Are	2
+“Bless	1
+“Defects,”	1
+“Did	1
+“Everything	1
+“Here,	1
+“How	2
+“IN	1
+“If	1
+“Information	1
+“Josephus,”	1
+“Marine	1
+“Mary	1
+“Mayflower.”	1
+“No,	1
+“Oh,	1
+“Our	1
+“Palmer	1
+“Plain	2
+“Project	5
+“Right	1
+“SHIPWRECKS”	1
+“She	1
+“Ship	1
+“Some	1
+“The	1
+“Theirs	1
+“There,	1
+“There’s	1
+“They	2
+“We	4
+“Well,	4
+“Why	2
+“Why,	1
+“Yes,	1
+“all	1
+“boy,”	1
+“codder”	1
+“guess	1
+“it	1
+“one	1
+“pesky	1
+“swish,	1
+“unvarnished	1
+“we	1
+“wet,”	1
+“we’ve	1
+“you	2
+•	4

@@ -1,0 +1,1773 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for aueb.fnitsos:map.reduce:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 35, column 15
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ----------------------< aueb.fnitsos:map.reduce >-----------------------
+[INFO] Building map.reduce 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ map.reduce ---
+[INFO] Deleting D:\Other\map.reduce\map.reduce\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ map.reduce ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 3 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ map.reduce ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 5 source files to D:\Other\map.reduce\map.reduce\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ map.reduce ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory D:\Other\map.reduce\map.reduce\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ map.reduce ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to D:\Other\map.reduce\map.reduce\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ map.reduce ---
+[INFO] Surefire report directory: D:\Other\map.reduce\map.reduce\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running aueb.fnitsos.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.032 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ map.reduce ---
+[INFO] Building jar: D:\Other\map.reduce\map.reduce\target\map.reduce-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.2-beta-5:single (make-assembly) @ map.reduce ---
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/org.apache.hadoop.security.token.TokenRenewer already added, skipping
+[INFO] META-INF/services/org.apache.hadoop.security.token.TokenIdentifier already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] org/apache/hadoop/yarn/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factory/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factory/providers/ already added, skipping
+[INFO] org/apache/hadoop/yarn/util/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factories/ already added, skipping
+[INFO] org/apache/hadoop/yarn/server/ already added, skipping
+[INFO] org/apache/hadoop/yarn/server/api/ already added, skipping
+[INFO] org/apache/hadoop/yarn/server/api/protocolrecords/ already added, skipping
+[INFO] org/apache/hadoop/yarn/api/ already added, skipping
+[INFO] org/apache/hadoop/yarn/api/protocolrecords/ already added, skipping
+[INFO] org/apache/hadoop/yarn/api/records/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factory/providers/package-info.class already added, skipping
+[INFO] org/apache/hadoop/yarn/util/package-info.class already added, skipping
+[INFO] org/apache/hadoop/yarn/factories/package-info.class already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/slf4j/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.slf4j/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/google/ already added, skipping
+[INFO] com/google/inject/ already added, skipping
+[INFO] META-INF/DEPENDENCIES already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/google/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/test/ already added, skipping
+[INFO] com/sun/jersey/test/framework/ already added, skipping
+[INFO] com/sun/jersey/test/framework/spi/ already added, skipping
+[INFO] com/sun/jersey/test/framework/spi/container/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey.jersey-test-framework/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] com/sun/jersey/spi/ already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/com.sun.jersey.spi.container.ContainerProvider already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] com/sun/jersey/api/container/ already added, skipping
+[INFO] com/sun/jersey/server/ already added, skipping
+[INFO] com/sun/jersey/server/impl/ already added, skipping
+[INFO] com/sun/jersey/server/impl/container/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] org/glassfish/grizzly/http/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/servlet/ already added, skipping
+[INFO] javax/servlet/http/ already added, skipping
+[INFO] javax/servlet/descriptor/ already added, skipping
+[INFO] javax/servlet/annotation/ already added, skipping
+[INFO] javax/servlet/SessionTrackingMode.class already added, skipping
+[INFO] javax/servlet/AsyncListener.class already added, skipping
+[INFO] javax/servlet/ServletResponse.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeListener.class already added, skipping
+[INFO] javax/servlet/FilterRegistration.class already added, skipping
+[INFO] javax/servlet/AsyncEvent.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeEvent.class already added, skipping
+[INFO] javax/servlet/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/http/Part.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequest.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponse.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/http/NoBodyResponse.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionAttributeListener.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/http/HttpSessionContext.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/http/HttpSessionActivationListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionEvent.class already added, skipping
+[INFO] javax/servlet/http/Cookie.class already added, skipping
+[INFO] javax/servlet/http/HttpUtils.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/http/HttpSessionListener.class already added, skipping
+[INFO] javax/servlet/http/HttpServlet.class already added, skipping
+[INFO] javax/servlet/http/HttpSession.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings_es.properties already added, skipping
+[INFO] javax/servlet/http/NoBodyOutputStream.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingEvent.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingListener.class already added, skipping
+[INFO] javax/servlet/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeListener.class already added, skipping
+[INFO] javax/servlet/FilterConfig.class already added, skipping
+[INFO] javax/servlet/ServletRequestListener.class already added, skipping
+[INFO] javax/servlet/Filter.class already added, skipping
+[INFO] javax/servlet/MultipartConfigElement.class already added, skipping
+[INFO] javax/servlet/GenericServlet.class already added, skipping
+[INFO] javax/servlet/ServletContextEvent.class already added, skipping
+[INFO] javax/servlet/descriptor/JspPropertyGroupDescriptor.class already added, skipping
+[INFO] javax/servlet/descriptor/TaglibDescriptor.class already added, skipping
+[INFO] javax/servlet/descriptor/JspConfigDescriptor.class already added, skipping
+[INFO] javax/servlet/ServletInputStream.class already added, skipping
+[INFO] javax/servlet/UnavailableException.class already added, skipping
+[INFO] javax/servlet/FilterChain.class already added, skipping
+[INFO] javax/servlet/ServletRegistration$Dynamic.class already added, skipping
+[INFO] javax/servlet/SingleThreadModel.class already added, skipping
+[INFO] javax/servlet/HttpMethodConstraintElement.class already added, skipping
+[INFO] javax/servlet/HttpConstraintElement.class already added, skipping
+[INFO] javax/servlet/Registration.class already added, skipping
+[INFO] javax/servlet/DispatcherType.class already added, skipping
+[INFO] javax/servlet/ServletException.class already added, skipping
+[INFO] javax/servlet/Registration$Dynamic.class already added, skipping
+[INFO] javax/servlet/ServletContextListener.class already added, skipping
+[INFO] javax/servlet/ServletRequestEvent.class already added, skipping
+[INFO] javax/servlet/ServletOutputStream.class already added, skipping
+[INFO] javax/servlet/ServletRegistration.class already added, skipping
+[INFO] javax/servlet/ServletRequest.class already added, skipping
+[INFO] javax/servlet/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/SessionCookieConfig.class already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeEvent.class already added, skipping
+[INFO] javax/servlet/ServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/RequestDispatcher.class already added, skipping
+[INFO] javax/servlet/annotation/HttpMethodConstraint.class already added, skipping
+[INFO] javax/servlet/annotation/ServletSecurity$TransportGuarantee.class already added, skipping
+[INFO] javax/servlet/annotation/HandlesTypes.class already added, skipping
+[INFO] javax/servlet/annotation/WebListener.class already added, skipping
+[INFO] javax/servlet/annotation/ServletSecurity$EmptyRoleSemantic.class already added, skipping
+[INFO] javax/servlet/annotation/MultipartConfig.class already added, skipping
+[INFO] javax/servlet/annotation/WebInitParam.class already added, skipping
+[INFO] javax/servlet/annotation/ServletSecurity.class already added, skipping
+[INFO] javax/servlet/annotation/HttpConstraint.class already added, skipping
+[INFO] javax/servlet/annotation/WebFilter.class already added, skipping
+[INFO] javax/servlet/annotation/WebServlet.class already added, skipping
+[INFO] javax/servlet/ServletContext.class already added, skipping
+[INFO] javax/servlet/ServletConfig.class already added, skipping
+[INFO] javax/servlet/ServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/Servlet.class already added, skipping
+[INFO] javax/servlet/ServletContainerInitializer.class already added, skipping
+[INFO] javax/servlet/AsyncContext.class already added, skipping
+[INFO] javax/servlet/ServletSecurityElement.class already added, skipping
+[INFO] javax/servlet/FilterRegistration$Dynamic.class already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/javax.ws.rs.ext.MessageBodyReader already added, skipping
+[INFO] META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/xml/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/DEPENDENCIES already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/org.apache.hadoop.security.SecurityInfo already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/google/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.commons/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/servlet/ already added, skipping
+[INFO] javax/servlet/http/ already added, skipping
+[INFO] javax/servlet/Filter.class already added, skipping
+[INFO] javax/servlet/FilterChain.class already added, skipping
+[INFO] javax/servlet/FilterConfig.class already added, skipping
+[INFO] javax/servlet/GenericServlet.class already added, skipping
+[INFO] javax/servlet/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/RequestDispatcher.class already added, skipping
+[INFO] javax/servlet/Servlet.class already added, skipping
+[INFO] javax/servlet/ServletConfig.class already added, skipping
+[INFO] javax/servlet/ServletContext.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeEvent.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeListener.class already added, skipping
+[INFO] javax/servlet/ServletContextEvent.class already added, skipping
+[INFO] javax/servlet/ServletContextListener.class already added, skipping
+[INFO] javax/servlet/ServletException.class already added, skipping
+[INFO] javax/servlet/ServletInputStream.class already added, skipping
+[INFO] javax/servlet/ServletOutputStream.class already added, skipping
+[INFO] javax/servlet/ServletRequest.class already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeEvent.class already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeListener.class already added, skipping
+[INFO] javax/servlet/ServletRequestEvent.class already added, skipping
+[INFO] javax/servlet/ServletRequestListener.class already added, skipping
+[INFO] javax/servlet/ServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/ServletResponse.class already added, skipping
+[INFO] javax/servlet/ServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/SingleThreadModel.class already added, skipping
+[INFO] javax/servlet/UnavailableException.class already added, skipping
+[INFO] javax/servlet/http/Cookie.class already added, skipping
+[INFO] javax/servlet/http/HttpServlet.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequest.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponse.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/http/HttpSession.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionActivationListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionAttributeListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingEvent.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionContext.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionEvent.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionListener.class already added, skipping
+[INFO] javax/servlet/http/HttpUtils.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/http/LocalStrings_es.properties already added, skipping
+[INFO] javax/servlet/http/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/http/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/http/NoBodyOutputStream.class already added, skipping
+[INFO] javax/servlet/http/NoBodyResponse.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/mortbay/ already added, skipping
+[INFO] org/mortbay/servlet/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.mortbay.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/jasper/ already added, skipping
+[INFO] org/apache/jasper/compiler/ already added, skipping
+[INFO] org/apache/jasper/compiler/Localizer.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/servlet/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] org/apache/commons/httpclient/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] org/apache/commons/collections/ already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap.class already added, skipping
+[INFO] org/apache/commons/collections/ArrayStack.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$Values.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$1.class already added, skipping
+[INFO] org/apache/commons/collections/Buffer.class already added, skipping
+[INFO] org/apache/commons/collections/BufferUnderflowException.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$KeySet.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$EntrySet.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] org/apache/commons/beanutils/ already added, skipping
+[INFO] org/apache/commons/beanutils/BasicDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/BasicDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanAccessLanguageException.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanUtilsBean$1.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConstructorUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/ContextClassLoaderLocal.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConversionException.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConvertUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConvertUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/Converter.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConvertingWrapDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/DynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/DynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/DynaProperty.class already added, skipping
+[INFO] org/apache/commons/beanutils/JDBCDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/LazyDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/LazyDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/LazyDynaMap.class already added, skipping
+[INFO] org/apache/commons/beanutils/MappedPropertyDescriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/MethodUtils$MethodDescriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/MethodUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/MutableDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/NestedNullException.class already added, skipping
+[INFO] org/apache/commons/beanutils/PropertyUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/PropertyUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/ResultSetDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/ResultSetIterator.class already added, skipping
+[INFO] org/apache/commons/beanutils/RowSetDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/WrapDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/WrapDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ already added, skipping
+[INFO] org/apache/commons/beanutils/converters/AbstractArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BigDecimalConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BigIntegerConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BooleanArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BooleanConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ByteArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ByteConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/CharacterArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/CharacterConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ClassConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/DoubleArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/DoubleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/FileConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/FloatArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/FloatConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/IntegerArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/IntegerConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/LongArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/LongConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ShortArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ShortConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/SqlDateConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/SqlTimeConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/SqlTimestampConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/StringArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/StringConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/URLConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/ already added, skipping
+[INFO] org/apache/commons/beanutils/locale/BaseLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtils$Descriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$1.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$Descriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleConvertUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleConvertUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/ already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/BigDecimalLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/BigIntegerLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/ByteLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/DateLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/DecimalLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/DoubleLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/FloatLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/IntegerLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/LongLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/ShortLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/SqlDateLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/SqlTimeLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/SqlTimestampLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/StringLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/collections/ already added, skipping
+[INFO] org/apache/commons/collections/ArrayStack.class already added, skipping
+[INFO] org/apache/commons/collections/Buffer.class already added, skipping
+[INFO] org/apache/commons/collections/BufferUnderflowException.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$1.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$EntrySet.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$KeySet.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$Values.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] org/apache/hadoop/security/ already added, skipping
+[INFO] org/apache/hadoop/util/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] LICENSE.txt already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] Building jar: D:\Other\map.reduce\map.reduce\target\map.reduce-1.0-SNAPSHOT-jar-with-dependencies.jar
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/org.apache.hadoop.security.token.TokenRenewer already added, skipping
+[INFO] META-INF/services/org.apache.hadoop.security.token.TokenIdentifier already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] org/apache/hadoop/yarn/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factory/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factory/providers/ already added, skipping
+[INFO] org/apache/hadoop/yarn/util/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factories/ already added, skipping
+[INFO] org/apache/hadoop/yarn/server/ already added, skipping
+[INFO] org/apache/hadoop/yarn/server/api/ already added, skipping
+[INFO] org/apache/hadoop/yarn/server/api/protocolrecords/ already added, skipping
+[INFO] org/apache/hadoop/yarn/api/ already added, skipping
+[INFO] org/apache/hadoop/yarn/api/protocolrecords/ already added, skipping
+[INFO] org/apache/hadoop/yarn/api/records/ already added, skipping
+[INFO] org/apache/hadoop/yarn/factory/providers/package-info.class already added, skipping
+[INFO] org/apache/hadoop/yarn/util/package-info.class already added, skipping
+[INFO] org/apache/hadoop/yarn/factories/package-info.class already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/slf4j/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.slf4j/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/google/ already added, skipping
+[INFO] com/google/inject/ already added, skipping
+[INFO] META-INF/DEPENDENCIES already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/google/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/test/ already added, skipping
+[INFO] com/sun/jersey/test/framework/ already added, skipping
+[INFO] com/sun/jersey/test/framework/spi/ already added, skipping
+[INFO] com/sun/jersey/test/framework/spi/container/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey.jersey-test-framework/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] com/sun/jersey/spi/ already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/com.sun.jersey.spi.container.ContainerProvider already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] com/sun/jersey/api/container/ already added, skipping
+[INFO] com/sun/jersey/server/ already added, skipping
+[INFO] com/sun/jersey/server/impl/ already added, skipping
+[INFO] com/sun/jersey/server/impl/container/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] org/glassfish/grizzly/http/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.glassfish.grizzly/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/glassfish/ already added, skipping
+[INFO] org/glassfish/grizzly/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/servlet/ already added, skipping
+[INFO] javax/servlet/http/ already added, skipping
+[INFO] javax/servlet/descriptor/ already added, skipping
+[INFO] javax/servlet/annotation/ already added, skipping
+[INFO] javax/servlet/SessionTrackingMode.class already added, skipping
+[INFO] javax/servlet/AsyncListener.class already added, skipping
+[INFO] javax/servlet/ServletResponse.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeListener.class already added, skipping
+[INFO] javax/servlet/FilterRegistration.class already added, skipping
+[INFO] javax/servlet/AsyncEvent.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeEvent.class already added, skipping
+[INFO] javax/servlet/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/http/Part.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequest.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponse.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/http/NoBodyResponse.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionAttributeListener.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/http/HttpSessionContext.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/http/HttpSessionActivationListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionEvent.class already added, skipping
+[INFO] javax/servlet/http/Cookie.class already added, skipping
+[INFO] javax/servlet/http/HttpUtils.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/http/HttpSessionListener.class already added, skipping
+[INFO] javax/servlet/http/HttpServlet.class already added, skipping
+[INFO] javax/servlet/http/HttpSession.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings_es.properties already added, skipping
+[INFO] javax/servlet/http/NoBodyOutputStream.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingEvent.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingListener.class already added, skipping
+[INFO] javax/servlet/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeListener.class already added, skipping
+[INFO] javax/servlet/FilterConfig.class already added, skipping
+[INFO] javax/servlet/ServletRequestListener.class already added, skipping
+[INFO] javax/servlet/Filter.class already added, skipping
+[INFO] javax/servlet/MultipartConfigElement.class already added, skipping
+[INFO] javax/servlet/GenericServlet.class already added, skipping
+[INFO] javax/servlet/ServletContextEvent.class already added, skipping
+[INFO] javax/servlet/descriptor/JspPropertyGroupDescriptor.class already added, skipping
+[INFO] javax/servlet/descriptor/TaglibDescriptor.class already added, skipping
+[INFO] javax/servlet/descriptor/JspConfigDescriptor.class already added, skipping
+[INFO] javax/servlet/ServletInputStream.class already added, skipping
+[INFO] javax/servlet/UnavailableException.class already added, skipping
+[INFO] javax/servlet/FilterChain.class already added, skipping
+[INFO] javax/servlet/ServletRegistration$Dynamic.class already added, skipping
+[INFO] javax/servlet/SingleThreadModel.class already added, skipping
+[INFO] javax/servlet/HttpMethodConstraintElement.class already added, skipping
+[INFO] javax/servlet/HttpConstraintElement.class already added, skipping
+[INFO] javax/servlet/Registration.class already added, skipping
+[INFO] javax/servlet/DispatcherType.class already added, skipping
+[INFO] javax/servlet/ServletException.class already added, skipping
+[INFO] javax/servlet/Registration$Dynamic.class already added, skipping
+[INFO] javax/servlet/ServletContextListener.class already added, skipping
+[INFO] javax/servlet/ServletRequestEvent.class already added, skipping
+[INFO] javax/servlet/ServletOutputStream.class already added, skipping
+[INFO] javax/servlet/ServletRegistration.class already added, skipping
+[INFO] javax/servlet/ServletRequest.class already added, skipping
+[INFO] javax/servlet/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/SessionCookieConfig.class already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeEvent.class already added, skipping
+[INFO] javax/servlet/ServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/RequestDispatcher.class already added, skipping
+[INFO] javax/servlet/annotation/HttpMethodConstraint.class already added, skipping
+[INFO] javax/servlet/annotation/ServletSecurity$TransportGuarantee.class already added, skipping
+[INFO] javax/servlet/annotation/HandlesTypes.class already added, skipping
+[INFO] javax/servlet/annotation/WebListener.class already added, skipping
+[INFO] javax/servlet/annotation/ServletSecurity$EmptyRoleSemantic.class already added, skipping
+[INFO] javax/servlet/annotation/MultipartConfig.class already added, skipping
+[INFO] javax/servlet/annotation/WebInitParam.class already added, skipping
+[INFO] javax/servlet/annotation/ServletSecurity.class already added, skipping
+[INFO] javax/servlet/annotation/HttpConstraint.class already added, skipping
+[INFO] javax/servlet/annotation/WebFilter.class already added, skipping
+[INFO] javax/servlet/annotation/WebServlet.class already added, skipping
+[INFO] javax/servlet/ServletContext.class already added, skipping
+[INFO] javax/servlet/ServletConfig.class already added, skipping
+[INFO] javax/servlet/ServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/Servlet.class already added, skipping
+[INFO] javax/servlet/ServletContainerInitializer.class already added, skipping
+[INFO] javax/servlet/AsyncContext.class already added, skipping
+[INFO] javax/servlet/ServletSecurityElement.class already added, skipping
+[INFO] javax/servlet/FilterRegistration$Dynamic.class already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/jersey-module-version already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/com.sun.jersey/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/javax.ws.rs.ext.MessageBodyReader already added, skipping
+[INFO] META-INF/services/javax.ws.rs.ext.MessageBodyWriter already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] com/sun/jersey/api/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/xml/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/ASL2.0 already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/codehaus/ already added, skipping
+[INFO] org/codehaus/jackson/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/sun/ already added, skipping
+[INFO] com/sun/jersey/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/DEPENDENCIES already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] META-INF/services/ already added, skipping
+[INFO] META-INF/services/org.apache.hadoop.security.SecurityInfo already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] com/ already added, skipping
+[INFO] com/google/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.commons/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE already added, skipping
+[INFO] META-INF/NOTICE already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/servlet/ already added, skipping
+[INFO] javax/servlet/http/ already added, skipping
+[INFO] javax/servlet/Filter.class already added, skipping
+[INFO] javax/servlet/FilterChain.class already added, skipping
+[INFO] javax/servlet/FilterConfig.class already added, skipping
+[INFO] javax/servlet/GenericServlet.class already added, skipping
+[INFO] javax/servlet/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/RequestDispatcher.class already added, skipping
+[INFO] javax/servlet/Servlet.class already added, skipping
+[INFO] javax/servlet/ServletConfig.class already added, skipping
+[INFO] javax/servlet/ServletContext.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeEvent.class already added, skipping
+[INFO] javax/servlet/ServletContextAttributeListener.class already added, skipping
+[INFO] javax/servlet/ServletContextEvent.class already added, skipping
+[INFO] javax/servlet/ServletContextListener.class already added, skipping
+[INFO] javax/servlet/ServletException.class already added, skipping
+[INFO] javax/servlet/ServletInputStream.class already added, skipping
+[INFO] javax/servlet/ServletOutputStream.class already added, skipping
+[INFO] javax/servlet/ServletRequest.class already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeEvent.class already added, skipping
+[INFO] javax/servlet/ServletRequestAttributeListener.class already added, skipping
+[INFO] javax/servlet/ServletRequestEvent.class already added, skipping
+[INFO] javax/servlet/ServletRequestListener.class already added, skipping
+[INFO] javax/servlet/ServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/ServletResponse.class already added, skipping
+[INFO] javax/servlet/ServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/SingleThreadModel.class already added, skipping
+[INFO] javax/servlet/UnavailableException.class already added, skipping
+[INFO] javax/servlet/http/Cookie.class already added, skipping
+[INFO] javax/servlet/http/HttpServlet.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequest.class already added, skipping
+[INFO] javax/servlet/http/HttpServletRequestWrapper.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponse.class already added, skipping
+[INFO] javax/servlet/http/HttpServletResponseWrapper.class already added, skipping
+[INFO] javax/servlet/http/HttpSession.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionActivationListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionAttributeListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingEvent.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionBindingListener.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionContext.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionEvent.class already added, skipping
+[INFO] javax/servlet/http/HttpSessionListener.class already added, skipping
+[INFO] javax/servlet/http/HttpUtils.class already added, skipping
+[INFO] javax/servlet/http/LocalStrings.properties already added, skipping
+[INFO] javax/servlet/http/LocalStrings_es.properties already added, skipping
+[INFO] javax/servlet/http/LocalStrings_fr.properties already added, skipping
+[INFO] javax/servlet/http/LocalStrings_ja.properties already added, skipping
+[INFO] javax/servlet/http/NoBodyOutputStream.class already added, skipping
+[INFO] javax/servlet/http/NoBodyResponse.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/mortbay/ already added, skipping
+[INFO] org/mortbay/servlet/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.mortbay.jetty/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/jasper/ already added, skipping
+[INFO] org/apache/jasper/compiler/ already added, skipping
+[INFO] org/apache/jasper/compiler/Localizer.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] javax/ already added, skipping
+[INFO] javax/servlet/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] org/apache/commons/httpclient/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] org/apache/commons/collections/ already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap.class already added, skipping
+[INFO] org/apache/commons/collections/ArrayStack.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$Values.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$1.class already added, skipping
+[INFO] org/apache/commons/collections/Buffer.class already added, skipping
+[INFO] org/apache/commons/collections/BufferUnderflowException.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$KeySet.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$EntrySet.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/LICENSE.txt already added, skipping
+[INFO] META-INF/NOTICE.txt already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/commons/ already added, skipping
+[INFO] org/apache/commons/beanutils/ already added, skipping
+[INFO] org/apache/commons/beanutils/BasicDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/BasicDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanAccessLanguageException.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanUtilsBean$1.class already added, skipping
+[INFO] org/apache/commons/beanutils/BeanUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConstructorUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/ContextClassLoaderLocal.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConversionException.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConvertUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConvertUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/Converter.class already added, skipping
+[INFO] org/apache/commons/beanutils/ConvertingWrapDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/DynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/DynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/DynaProperty.class already added, skipping
+[INFO] org/apache/commons/beanutils/JDBCDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/LazyDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/LazyDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/LazyDynaMap.class already added, skipping
+[INFO] org/apache/commons/beanutils/MappedPropertyDescriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/MethodUtils$MethodDescriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/MethodUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/MutableDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/NestedNullException.class already added, skipping
+[INFO] org/apache/commons/beanutils/PropertyUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/PropertyUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/ResultSetDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/ResultSetIterator.class already added, skipping
+[INFO] org/apache/commons/beanutils/RowSetDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/WrapDynaBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/WrapDynaClass.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ already added, skipping
+[INFO] org/apache/commons/beanutils/converters/AbstractArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BigDecimalConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BigIntegerConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BooleanArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/BooleanConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ByteArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ByteConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/CharacterArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/CharacterConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ClassConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/DoubleArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/DoubleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/FileConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/FloatArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/FloatConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/IntegerArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/IntegerConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/LongArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/LongConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ShortArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/ShortConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/SqlDateConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/SqlTimeConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/SqlTimestampConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/StringArrayConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/StringConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/converters/URLConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/ already added, skipping
+[INFO] org/apache/commons/beanutils/locale/BaseLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtils$Descriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$1.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean$Descriptor.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleBeanUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleConvertUtils.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleConvertUtilsBean.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/LocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/ already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/BigDecimalLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/BigIntegerLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/ByteLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/DateLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/DecimalLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/DoubleLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/FloatLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/IntegerLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/LongLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/ShortLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/SqlDateLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/SqlTimeLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/SqlTimestampLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/beanutils/locale/converters/StringLocaleConverter.class already added, skipping
+[INFO] org/apache/commons/collections/ already added, skipping
+[INFO] org/apache/commons/collections/ArrayStack.class already added, skipping
+[INFO] org/apache/commons/collections/Buffer.class already added, skipping
+[INFO] org/apache/commons/collections/BufferUnderflowException.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$1.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$CollectionView.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$EntrySet.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$KeySet.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap$Values.class already added, skipping
+[INFO] org/apache/commons/collections/FastHashMap.class already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] org/apache/hadoop/ already added, skipping
+[INFO] org/apache/hadoop/security/ already added, skipping
+[INFO] org/apache/hadoop/util/ already added, skipping
+[INFO] META-INF/maven/ already added, skipping
+[INFO] META-INF/maven/org.apache.hadoop/ already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] META-INF/ already added, skipping
+[INFO] META-INF/MANIFEST.MF already added, skipping
+[INFO] LICENSE.txt already added, skipping
+[INFO] org/ already added, skipping
+[INFO] org/apache/ already added, skipping
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  33.277 s
+[INFO] Finished at: 2024-02-15T21:38:48+02:00
+[INFO] ------------------------------------------------------------------------
+AE_2023-10	song= I KNOW ? , max danceablity= 0.927, average danceability= 0.6569877
+AE_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6587664
+AE_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6303423
+AE_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6546158
+AR_2023-10	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.74935967
+AR_2023-11	song= 24/7 6.5 , max danceablity= 0.925, average danceability= 0.75033814
+AR_2023-12	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.740419
+AR_2024-01	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.73079216
+AT_2023-10	song= Sprinter , max danceablity= 0.916, average danceability= 0.6875656
+AT_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6582391
+AT_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.5913145
+AT_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.66956365
+AU_2023-10	song= Sprinter , max danceablity= 0.916, average danceability= 0.64190406
+AU_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6377228
+AU_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.61549425
+AU_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6518286
+BE_2023-10	song= Arranca (feat. Omega) , max danceablity= 0.931, average danceability= 0.65118873
+BE_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6332458
+BE_2023-12	song= The Real Slim Shady , max danceablity= 0.949, average danceability= 0.60212535
+BE_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6164393
+BG_2023-10	song= I KNOW ? , max danceablity= 0.927, average danceability= 0.711789
+BG_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.70495707
+BG_2023-12	song= The Real Slim Shady , max danceablity= 0.949, average danceability= 0.680726
+BG_2024-01	song= Bez Ruce , max danceablity= 0.968, average danceability= 0.71892977
+BO_2023-10	song= AMARGURA , max danceablity= 0.92, average danceability= 0.73191434
+BO_2023-11	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7266732
+BO_2023-12	song= AMARGURA , max danceablity= 0.92, average danceability= 0.71652555
+BO_2024-01	song= AMARGURA , max danceablity= 0.92, average danceability= 0.71997124
+BR_2023-10	song= Toca o Trompete , max danceablity= 0.947, average danceability= 0.6819223
+BR_2023-11	song= Toca o Trompete , max danceablity= 0.947, average danceability= 0.6790923
+BR_2023-12	song= Toca o Trompete , max danceablity= 0.947, average danceability= 0.6630138
+BR_2024-01	song= Toca o Trompete , max danceablity= 0.947, average danceability= 0.6648285
+BY_2023-10	song= IT GIRL , max danceablity= 0.969, average danceability= 0.68051124
+BY_2023-11	song= City Boy Life , max danceablity= 0.955, average danceability= 0.69291973
+BY_2023-12	song= Мечты , max danceablity= 0.945, average danceability= 0.6822147
+BY_2024-01	song= Нефертити , max danceablity= 0.988, average danceability= 0.68257564
+CA_2023-10	song= I KNOW ? , max danceablity= 0.927, average danceability= 0.64401084
+CA_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.621569
+CA_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.59330535
+CA_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6588505
+CH_2023-10	song= Sprinter , max danceablity= 0.916, average danceability= 0.6710651
+CH_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.64991635
+CH_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.58791804
+CH_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.64607555
+CL_2023-10	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7663435
+CL_2023-11	song= 24/7 6.5 , max danceablity= 0.925, average danceability= 0.77327865
+CL_2023-12	song= 24/7 6.5 , max danceablity= 0.925, average danceability= 0.76848626
+CL_2024-01	song= 24/7 6.5 , max danceablity= 0.925, average danceability= 0.77538526
+CO_2023-10	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7620158
+CO_2023-11	song= AMARGURA , max danceablity= 0.92, average danceability= 0.770556
+CO_2023-12	song= AMARGURA , max danceablity= 0.92, average danceability= 0.76518893
+CO_2024-01	song= AMARGURA , max danceablity= 0.92, average danceability= 0.77085453
+CR_2023-10	song= AMARGURA , max danceablity= 0.92, average danceability= 0.73754317
+CR_2023-11	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7356276
+CR_2023-12	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7275644
+CR_2024-01	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7236986
+CZ_2023-10	song= Můj space , max danceablity= 0.929, average danceability= 0.70904696
+CZ_2023-11	song= Můj space , max danceablity= 0.929, average danceability= 0.6968889
+CZ_2023-12	song= Pussy Power (feat. Porsche Boy) , max danceablity= 0.9, average danceability= 0.6415275
+CZ_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.694041
+DE_2023-10	song= Hässlich , max danceablity= 0.914, average danceability= 0.6947646
+DE_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.67921674
+DE_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6142576
+DE_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.686951
+DK_2023-10	song= Sprinter , max danceablity= 0.916, average danceability= 0.7134158
+DK_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.67749965
+DK_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.60361016
+DK_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.71926874
+DO_2023-10	song= AMARGURA , max danceablity= 0.92, average danceability= 0.76535875
+DO_2023-11	song= Tony , max danceablity= 0.949, average danceability= 0.7627705
+DO_2023-12	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7558348
+DO_2024-01	song= DIOS ES LA VUELTA , max danceablity= 0.954, average danceability= 0.74249035
+EC_2023-10	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7691924
+EC_2023-11	song= AMARGURA , max danceablity= 0.92, average danceability= 0.779886
+EC_2023-12	song= AMARGURA , max danceablity= 0.92, average danceability= 0.77443266
+EC_2024-01	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7825377
+EE_2023-10	song= IT GIRL , max danceablity= 0.969, average danceability= 0.67587066
+EE_2023-11	song= IT GIRL , max danceablity= 0.969, average danceability= 0.6606751
+EE_2023-12	song= The Real Slim Shady , max danceablity= 0.949, average danceability= 0.62622875
+EE_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.65668106
+EG_2023-10	song= Wahshteeny , max danceablity= 0.958, average danceability= 0.7159594
+EG_2023-11	song= Wahshteeny , max danceablity= 0.958, average danceability= 0.6906637
+EG_2023-12	song= سطلانة , max danceablity= 0.935, average danceability= 0.6823782
+EG_2024-01	song= سطلانة , max danceablity= 0.935, average danceability= 0.68090385
+ES_2023-10	song= NO ME QUIERO CASAR , max danceablity= 0.914, average danceability= 0.73692626
+ES_2023-11	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.74630874
+ES_2023-12	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.73320335
+ES_2024-01	song= DESPECHÁ , max danceablity= 0.914, average danceability= 0.73855793
+FI_2023-10	song= Tarinoit Vantaalt , max danceablity= 0.926, average danceability= 0.7151171
+FI_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.707808
+FI_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.66705596
+FI_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.68517786
+FR_2023-10	song= Arranca (feat. Omega) , max danceablity= 0.931, average danceability= 0.70503235
+FR_2023-11	song= Arranca (feat. Omega) , max danceablity= 0.931, average danceability= 0.6906121
+FR_2023-12	song= Beuh d'Hollande , max danceablity= 0.959, average danceability= 0.667388
+FR_2024-01	song= Beuh d'Hollande , max danceablity= 0.959, average danceability= 0.68742883
+GB_2023-10	song= Sprinter , max danceablity= 0.916, average danceability= 0.6312447
+GB_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.609711
+GB_2023-12	song= The Real Slim Shady , max danceablity= 0.949, average danceability= 0.5675736
+GB_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6246982
+GR_2023-10	song= Overdose , max danceablity= 0.94, average danceability= 0.72790504
+GR_2023-11	song= Ola Kala , max danceablity= 0.94, average danceability= 0.7288564
+GR_2023-12	song= Blue Iguana , max danceablity= 0.928, average danceability= 0.71812737
+GR_2024-01	song= Blue Iguana , max danceablity= 0.928, average danceability= 0.71836245
+GT_2023-10	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7382627
+GT_2023-11	song= AMARGURA , max danceablity= 0.92, average danceability= 0.73658025
+GT_2023-12	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7377957
+GT_2024-01	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7352983
+HK_2023-10	song= Monster , max danceablity= 0.913, average danceability= 0.6158522
+HK_2023-11	song= BATTER UP , max danceablity= 0.903, average danceability= 0.6084713
+HK_2023-12	song= BATTER UP , max danceablity= 0.903, average danceability= 0.60842854
+HK_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6034286
+HN_2023-10	song= AMARGURA , max danceablity= 0.92, average danceability= 0.74388224
+HN_2023-11	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7541288
+HN_2023-12	song= AMARGURA , max danceablity= 0.92, average danceability= 0.75282055
+HN_2024-01	song= AMARGURA , max danceablity= 0.92, average danceability= 0.75731516
+HU_2023-10	song= Gurulgatok , max danceablity= 0.926, average danceability= 0.71965677
+HU_2023-11	song= Gurulgatok , max danceablity= 0.926, average danceability= 0.72236806
+HU_2023-12	song= Ezer Nap , max danceablity= 0.979, average danceability= 0.6705594
+HU_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.728181
+ID_2023-10	song= 3D (feat. Jack Harlow) , max danceablity= 0.853, average danceability= 0.5308985
+ID_2023-11	song= 3D (feat. Jack Harlow) , max danceablity= 0.853, average danceability= 0.52839386
+ID_2023-12	song= Seven (feat. Latto) (Explicit Ver.) , max danceablity= 0.79, average danceability= 0.5181992
+ID_2024-01	song= greedy , max danceablity= 0.75, average danceability= 0.52081907
+IE_2023-10	song= Sprinter , max danceablity= 0.916, average danceability= 0.6164309
+IE_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.5978888
+IE_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.556881
+IE_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.61351234
+IL_2023-10	song= שלוק מהבלו , max danceablity= 0.921, average danceability= 0.59774595
+IL_2023-11	song= פחד אלוהים , max danceablity= 0.884, average danceability= 0.58520466
+IL_2023-12	song= The Real Slim Shady , max danceablity= 0.949, average danceability= 0.58874744
+IL_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.5852604
+IN_2023-10	song= Karu Karu Karupayi , max danceablity= 0.929, average danceability= 0.6811098
+IN_2023-11	song= Check It Out , max danceablity= 0.923, average danceability= 0.6660083
+IN_2023-12	song= Kinni Kinni , max danceablity= 0.883, average danceability= 0.6283188
+IN_2024-01	song= Kinni Kinni , max danceablity= 0.883, average danceability= 0.63208854
+IS_2023-10	song= Vinn Við Það , max danceablity= 0.929, average danceability= 0.6817029
+IS_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.66206336
+IS_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6150158
+IS_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.68262184
+IT_2023-10	song= Hoe (feat. Sfera Ebbasta) , max danceablity= 0.936, average danceability= 0.7068598
+IT_2023-11	song= Hoe (feat. Sfera Ebbasta) , max danceablity= 0.936, average danceability= 0.7006605
+IT_2023-12	song= Petit Fou Fou (feat. ANNA) , max danceablity= 0.949, average danceability= 0.67582875
+IT_2024-01	song= Petit Fou Fou (feat. ANNA) , max danceablity= 0.949, average danceability= 0.7027165
+JP_2023-10	song= Mainstream , max danceablity= 0.901, average danceability= 0.5983915
+JP_2023-11	song= Mainstream , max danceablity= 0.901, average danceability= 0.6025727
+JP_2023-12	song= Mainstream , max danceablity= 0.901, average danceability= 0.57920325
+JP_2024-01	song= Bling-Bang-Bang-Born , max danceablity= 0.853, average danceability= 0.57779026
+KR_2023-10	song= Love Lee , max danceablity= 0.914, average danceability= 0.6664603
+KR_2023-11	song= Love Lee , max danceablity= 0.914, average danceability= 0.6078174
+KR_2023-12	song= UNLOVE (prod. HONNE) , max danceablity= 0.92, average danceability= 0.6096831
+KR_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.62731475
+KZ_2023-10	song= Adjare Gudju , max danceablity= 0.969, average danceability= 0.7373038
+KZ_2023-11	song= Adjare Gudju , max danceablity= 0.969, average danceability= 0.72801596
+KZ_2023-12	song= Adjare Gudju , max danceablity= 0.969, average danceability= 0.72935766
+KZ_2024-01	song= Нефертити , max danceablity= 0.988, average danceability= 0.7304625
+LT_2023-10	song= IT GIRL , max danceablity= 0.969, average danceability= 0.71203244
+LT_2023-11	song= IT GIRL , max danceablity= 0.969, average danceability= 0.6988616
+LT_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6440198
+LT_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6991598
+LU_2023-10	song= Arranca (feat. Omega) , max danceablity= 0.931, average danceability= 0.6854785
+LU_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.65307856
+LU_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6001352
+LU_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6544117
+LV_2023-10	song= IT GIRL , max danceablity= 0.969, average danceability= 0.6723114
+LV_2023-11	song= IT GIRL , max danceablity= 0.969, average danceability= 0.65662473
+LV_2023-12	song= Milzīte Ilzīte , max danceablity= 0.961, average danceability= 0.60381293
+LV_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.64633965
+MA_2023-10	song= Sprinter , max danceablity= 0.916, average danceability= 0.69991803
+MA_2023-11	song= ZOK , max danceablity= 0.89, average danceability= 0.69327265
+MA_2023-12	song= CHOUHA , max danceablity= 0.906, average danceability= 0.6675274
+MA_2024-01	song= HELMA , max danceablity= 0.907, average danceability= 0.6813812
+MX_2023-10	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.729304
+MX_2023-11	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.72437084
+MX_2023-12	song= MARTILLAZO , max danceablity= 0.918, average danceability= 0.7386931
+MX_2024-01	song= Tacata (Remix) , max danceablity= 0.922, average danceability= 0.74396354
+MY_2023-10	song= Paint The Town Red , max danceablity= 0.864, average danceability= 0.5998573
+MY_2023-11	song= BATTER UP , max danceablity= 0.903, average danceability= 0.6055195
+MY_2023-12	song= BATTER UP , max danceablity= 0.903, average danceability= 0.6026821
+MY_2024-01	song= BATTER UP , max danceablity= 0.903, average danceability= 0.59364504
+NG_2023-10	song= Things on Things , max danceablity= 0.942, average danceability= 0.7668665
+NG_2023-11	song= Things on Things , max danceablity= 0.942, average danceability= 0.78301966
+NG_2023-12	song= Things on Things , max danceablity= 0.942, average danceability= 0.78114575
+NG_2024-01	song= Things on Things , max danceablity= 0.942, average danceability= 0.7816786
+NI_2023-10	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7435337
+NI_2023-11	song= Without You , max danceablity= 0.926, average danceability= 0.7502833
+NI_2023-12	song= AMARGURA , max danceablity= 0.92, average danceability= 0.74772656
+NI_2024-01	song= AMARGURA , max danceablity= 0.92, average danceability= 0.746529
+NL_2023-10	song= Sprinter , max danceablity= 0.916, average danceability= 0.6460973
+NL_2023-11	song= Hij Komt, Hij Komt , max danceablity= 0.955, average danceability= 0.65974766
+NL_2023-12	song= Hij Komt, Hij Komt , max danceablity= 0.955, average danceability= 0.6094212
+NL_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.65985656
+NO_2023-10	song= Sprinter , max danceablity= 0.916, average danceability= 0.6299223
+NO_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.607947
+NO_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.53330076
+NO_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.61480695
+NZ_2023-10	song= In the Air , max danceablity= 0.974, average danceability= 0.6531092
+NZ_2023-11	song= In the Air , max danceablity= 0.974, average danceability= 0.65825754
+NZ_2023-12	song= In the Air , max danceablity= 0.974, average danceability= 0.62418836
+NZ_2024-01	song= In the Air , max danceablity= 0.974, average danceability= 0.66982955
+PA_2023-10	song= AMARGURA , max danceablity= 0.92, average danceability= 0.74696624
+PA_2023-11	song= AMARGURA , max danceablity= 0.92, average danceability= 0.75198877
+PA_2023-12	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7379326
+PA_2024-01	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7340275
+PE_2023-10	song= AMARGURA , max danceablity= 0.92, average danceability= 0.76060015
+PE_2023-11	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7679783
+PE_2023-12	song= AMARGURA , max danceablity= 0.92, average danceability= 0.77167904
+PE_2024-01	song= AMARGURA , max danceablity= 0.92, average danceability= 0.76035744
+PH_2023-10	song= LWKY , max danceablity= 0.926, average danceability= 0.6445492
+PH_2023-11	song= LWKY , max danceablity= 0.926, average danceability= 0.6393196
+PH_2023-12	song= MY THANG (GO GETTA 2) , max danceablity= 0.975, average danceability= 0.62166035
+PH_2024-01	song= MY THANG (GO GETTA 2) , max danceablity= 0.975, average danceability= 0.62707525
+PK_2023-10	song= Dior , max danceablity= 0.967, average danceability= 0.72044694
+PK_2023-11	song= Dior , max danceablity= 0.967, average danceability= 0.71389776
+PK_2023-12	song= Dior , max danceablity= 0.967, average danceability= 0.6950134
+PK_2024-01	song= Dior , max danceablity= 0.967, average danceability= 0.6883758
+PL_2023-10	song= ITALODISCO , max danceablity= 0.885, average danceability= 0.679574
+PL_2023-11	song= Cringowy Lovesong , max danceablity= 0.927, average danceability= 0.6855651
+PL_2023-12	song= ITALODISCO , max danceablity= 0.885, average danceability= 0.63228345
+PL_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.693733
+PT_2023-10	song= Faz um Vuk Vuk (Teto Espelhado) , max danceablity= 0.92, average danceability= 0.711009
+PT_2023-11	song= Faz um Vuk Vuk (Teto Espelhado) , max danceablity= 0.92, average danceability= 0.71435773
+PT_2023-12	song= Faz um Vuk Vuk (Teto Espelhado) , max danceablity= 0.92, average danceability= 0.69363445
+PT_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.7057549
+PY_2023-10	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.71474934
+PY_2023-11	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.7164712
+PY_2023-12	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.71629435
+PY_2024-01	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.7197111
+RO_2023-10	song= Cariceps , max danceablity= 0.963, average danceability= 0.748133
+RO_2023-11	song= Cariceps , max danceablity= 0.963, average danceability= 0.74887735
+RO_2023-12	song= Țigancă Balcanică , max danceablity= 0.962, average danceability= 0.71336764
+RO_2024-01	song= Cariceps , max danceablity= 0.963, average danceability= 0.75781536
+SA_2023-10	song= MONTAGEM - PR FUNK , max danceablity= 0.877, average danceability= 0.6253788
+SA_2023-11	song= كده كده بايظه , max danceablity= 0.892, average danceability= 0.6240797
+SA_2023-12	song= The Real Slim Shady , max danceablity= 0.949, average danceability= 0.62361306
+SA_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6212299
+SE_2023-10	song= Gas , max danceablity= 0.922, average danceability= 0.6129054
+SE_2023-11	song= KIKI , max danceablity= 0.982, average danceability= 0.62276137
+SE_2023-12	song= Black Owned Business , max danceablity= 0.968, average danceability= 0.563471
+SE_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6399684
+SG_2023-10	song= Monster , max danceablity= 0.913, average danceability= 0.64925635
+SG_2023-11	song= BATTER UP , max danceablity= 0.903, average danceability= 0.65381926
+SG_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.63721627
+SG_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.65202177
+SK_2023-10	song= Můj space , max danceablity= 0.929, average danceability= 0.7131387
+SK_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.68311137
+SK_2023-12	song= The Real Slim Shady , max danceablity= 0.949, average danceability= 0.6258741
+SK_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.68843085
+SV_2023-10	song= AMARGURA , max danceablity= 0.92, average danceability= 0.74802047
+SV_2023-11	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7573995
+SV_2023-12	song= Oye (Made Popular By La Sonora Dinamita) [Karaoke Version] , max danceablity= 0.933, average danceability= 0.7588101
+SV_2024-01	song= Oye (Made Popular By La Sonora Dinamita) [Karaoke Version] , max danceablity= 0.933, average danceability= 0.7673639
+TH_2023-10	song= Paint The Town Red , max danceablity= 0.864, average danceability= 0.62997574
+TH_2023-11	song= BATTER UP , max danceablity= 0.903, average danceability= 0.63059664
+TH_2023-12	song= BATTER UP , max danceablity= 0.903, average danceability= 0.62453026
+TH_2024-01	song= Left and Right (Feat. Jung Kook of BTS) , max danceablity= 0.881, average danceability= 0.6238309
+TR_2023-10	song= ARABA , max danceablity= 0.866, average danceability= 0.64313656
+TR_2023-11	song= ARABA , max danceablity= 0.866, average danceability= 0.64001715
+TR_2023-12	song= ARABA , max danceablity= 0.866, average danceability= 0.63936245
+TR_2024-01	song= DOĞUŞTAN BERİ HAKLIYIM (tmm) , max danceablity= 0.889, average danceability= 0.6249206
+TW_2023-10	song= Love Lee , max danceablity= 0.914, average danceability= 0.6166025
+TW_2023-11	song= Love Lee , max danceablity= 0.914, average danceability= 0.60454935
+TW_2023-12	song= BATTER UP , max danceablity= 0.903, average danceability= 0.62040865
+TW_2024-01	song= BATTER UP , max danceablity= 0.903, average danceability= 0.63499594
+UA_2023-10	song= IT GIRL , max danceablity= 0.969, average danceability= 0.7210486
+UA_2023-11	song= IT GIRL , max danceablity= 0.969, average danceability= 0.718944
+UA_2023-12	song= Я щаслива - Лікарі кажуть , max danceablity= 0.925, average danceability= 0.6961696
+UA_2024-01	song= Нефертити , max danceablity= 0.988, average danceability= 0.7203063
+US_2023-10	song= I KNOW ? , max danceablity= 0.927, average danceability= 0.64358664
+US_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6279628
+US_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.5982381
+US_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6673544
+UY_2023-10	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.74432546
+UY_2023-11	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.74293333
+UY_2023-12	song= Cupido , max danceablity= 0.914, average danceability= 0.7426946
+UY_2024-01	song= Cupido , max danceablity= 0.914, average danceability= 0.73641914
+VE_2023-10	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7585837
+VE_2023-11	song= AMARGURA , max danceablity= 0.92, average danceability= 0.76889205
+VE_2023-12	song= AMARGURA , max danceablity= 0.92, average danceability= 0.7625002
+VE_2024-01	song= AMARGURA , max danceablity= 0.92, average danceability= 0.77411205
+VN_2023-10	song= Không Phải Gu , max danceablity= 0.922, average danceability= 0.70964485
+VN_2023-11	song= Thích Em Hơi Nhiều , max danceablity= 0.92, average danceability= 0.70333654
+VN_2023-12	song= Thích Em Hơi Nhiều , max danceablity= 0.92, average danceability= 0.705101
+VN_2024-01	song= Thích Em Hơi Nhiều , max danceablity= 0.92, average danceability= 0.71224815
+ZA_2023-10	song= Bokke , max danceablity= 0.944, average danceability= 0.72597545
+ZA_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.72930956
+ZA_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.75241643
+ZA_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.75339097
+_2023-10	song= PERRO NEGRO , max danceablity= 0.911, average danceability= 0.6691615
+_2023-11	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.65738547
+_2023-12	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6324283
+_2024-01	song= Lovin On Me , max danceablity= 0.943, average danceability= 0.6735471
